@@ -1,0 +1,102 @@
+/* .App {
+  text-align: center;
+}
+.navBar {
+  background-color: black;
+  height: 100px;
+}
+
+.some-page-wrapper {
+  margin: 15px;
+  background-color: red;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+}
+.green-column {
+  background-color: green;
+  height: 100px;
+}
+.orange-column {
+  background-color: orange;
+  height: 100px;
+}
+
+.blue-column {
+  background-color: blue;
+  height: 100px;
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1
+  }
+
+  .double-column {
+    flex: 2
+  }
+} */
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  background: tomato;
+}
+
+.footer {
+  background: lightgreen;
+}
+
+.main {
+  text-align: left;
+  background: deepskyblue;
+}
+
+.aside-1 {
+  background: gold;
+}
+
+
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; }
+  .main    { order: 2; }
+  .footer  { order: 4; }
+}
+
+body {
+  padding: 2em;
+}

@@ -1,40 +1,76 @@
 .App {
+ text-align: center;
+}
+.navBar {
+ background-color: black;
+ height: 100px;
+}
+.navBar {
+ display: flex;
+ flex-flow: row wrap;
+ /* This aligns items to the end line on main-axis */
+ justify-content: flex-end;
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+ .navBar {
+   /* When on medium sized screens, we center it by evenly distributing empty space around items */
+   justify-content: space-around;
+ }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+ .navBar {
+   /* On small screens, we are no longer using row direction but column */
+   flex-direction: column;
+ }
+}
+
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
   text-align: center;
 }
 
-.some-page-wrapper {
-  margin: 15px;
-  background-color: red;
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+.header {
+  background: tomato;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-.navBar {
-  background-color: black;
-  height: 100px;
+.footer {
+  background: lightgreen;
 }
 
-.green-column {
-  background-color: green;
-  height: 100px;
-}
-.orange-column {
-  background-color: orange;
-  height: 100px;
+.main {
+  text-align: left;
+  background: deepskyblue;
 }
 
-.blue-column {
-  background-color: blue;
-  height: 100px;
+.aside-1 {
+  background: gold;
+}
+
+
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; }
+  .main    { order: 2; }
+  .footer  { order: 4; }
+}
+
+body {
+  padding: 2em;
 }

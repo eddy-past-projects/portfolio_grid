@@ -4,50 +4,22 @@ import './App.css';
 function App() {
   return (
     <div className='container'>
+      hi
       <div className='navBar'>
-        <div className='column'>
-          Some Text in Column One
-        </div>
-      </div>
-    <div className='some-page-wrapper'>
 
-  <div className='row 2'>
-    <div className='column'>
-      <div className='green-column'>
-        Some Text in Row 2, Column One
       </div>
-    </div>
-    <div className='column'>
-      <div className='orange-column'>
-        Some Text in Row 2, Column Two
-      </div>
-    </div>
-    <div className='column'>
-      <div className='blue-column'>
-        Some Text in Row2, Column Three
-      </div>
-    </div>
-  </div>
 
-  <div className='row 3'>
-    <div className='column'>
-      <div className='green-column'>
-        Some Text in Row 2, Column One
-      </div>
-    </div>
-    <div className='column'>
-      <div className='orange-column'>
-        Some Text in Row 2, Column Two
-      </div>
-    </div>
-    <div className='column'>
-      <div className='blue-column'>
-        Some Text in Row2, Column Three
-      </div>
-    </div>
-  </div>
+    <div className="wrapper">
+  <header className="header">Header</header>
+  <aside className="aside aside-1">Aside 1</aside>
+  <article className="main">
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+  </article>
+
+  <footer className="footer">Footer</footer>
 </div>
-  </div>
+</div>
+
   );
 }
 
