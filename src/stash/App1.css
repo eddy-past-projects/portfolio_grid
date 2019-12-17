@@ -66,5 +66,5 @@
   .aside-1 { order: 1; }
   .main    { flex: 3 0px; }
   .main    { order: 2; }
-  .footer  { order: 3; }
+  .footer  { order: ; }
 }
