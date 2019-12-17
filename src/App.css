@@ -6,17 +6,12 @@
   width: auto%;
 height: auto;
 }
-.navBar {
- background-color: black;
- height: 100px;
- @import "compass/css3";
-}
 
- .navBar {
-   list-style: none;
-   margin: 0;
 
-   background: black;
+ #navbar {
+   /* list-style: none;
+   margin: 0; */
+
 
    display: -webkit-box;
    display: -moz-box;
@@ -25,45 +20,39 @@ height: auto;
    display: flex;
 
    -webkit-flex-flow: row wrap;
-   justify-content: flex-end;
+   /* justify-content: flex-end; */
  }
 
- .navBar a {
+ /* #navbar a {
    text-decoration: none;
    display: block;
    padding: 1em;
    color: white;
  }
 
- .navBar a:hover {
+#navbar a:hover {
    background: darken(deepskyblue, 2%);
- }
+ } */
 
  @media all and (max-width: 800px) {
-   .navBar {
+   #navbar {
      justify-content: space-around;
+     /* margin: 20px; */
+
    }
  }
 
  @media all and (max-width: 600px) {
-   .navBar {
+   #navbar {
      -webkit-flex-flow: column wrap;
      flex-flow: column wrap;
      padding: 0;
-   }
-
-   .navBar a {
      text-align: center;
-     padding: 10px;
-     border-top: 1px solid rgba(255,255,255,0.3);
-     border-bottom: 1px solid rgba(0,0,0,0.1);
+     padding: 0, 10px
+     /* margin: 20px; */
    }
 
-
-   .navBar li:last-of-type a {
-     border-bottom: none;
-   }
- }
+}
 
 
 .wrapper {
@@ -78,9 +67,7 @@ height: auto;
   flex: 1 100%;
 }
 
-.header {
-  background: tomato;
-}
+
 
 .footer {
   background: lightgreen;
