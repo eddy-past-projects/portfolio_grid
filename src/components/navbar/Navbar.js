@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link to="/about-me" className='about-me'>About Me</Link>
           </li>
         </h2>
-        
+
 
 
       </nav>
