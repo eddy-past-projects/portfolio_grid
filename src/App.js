@@ -8,38 +8,29 @@ import Projects from './components/projects/Projects'
 import KayakProject from './components/projects/KayakProject'
 import AbodeProject from './components/projects/AbodeProject'
 import PetsProject from './components/projects/PetsProject'
-
-
+import AboutMe from './components/aboutMe/AboutMe'
 
 function App() {
-  return (
-    <div className='container'>
-      <Navbar/>
-
-
-
-
-
-
+  return (<div className='container'>
+    <Navbar/>
 
     <div className="wrapper">
-  <aside className="aside logo">
-    <img src={swirl_sm} className="swirl" alt="logo"/>
+      <aside className="aside logo">
+        <img src={swirl_sm} className="swirl" alt="logo"/>
 
-  </aside>
-  <div className="main">
+      </aside>
+      <div className="main">
 
-    <Route path='/projects' component={Projects}/>
+        <Route path='/projects' component={Projects}/>
+        <Route path='/about-me' component={AboutMe}/>
         <Route path='/kayak' component={KayakProject}/>
         <Route path='/abode' component={AbodeProject}/>
         <Route path='/pets' component={PetsProject}/>
-  </div>
+      </div>
 
-  <footer className="footer">Footer</footer>
-</div>
-</div>
-
-  );
+      <footer className="footer">Footer</footer>
+    </div>
+  </div>);
 }
 
 export default App;
