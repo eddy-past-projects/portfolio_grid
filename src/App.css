@@ -9,6 +9,7 @@
   flex-flow: row wrap;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .wrapper > * {
@@ -19,7 +20,12 @@
 .footer {
   background: lightgreen;
 }
-
+ a{
+   text-decoration: none;
+ }
+ a:hover {
+   color: grey;
+ }
 
 
 @media all and (min-width: 600px) {

@@ -36,6 +36,7 @@ h5:hover {
   max-width: 1240px;
   margin: 0 auto;
 
+
   display: grid;
 
   grid-template-columns: 1fr;
@@ -43,12 +44,20 @@ h5:hover {
   grid-gap: 20px;
 }
 @media all and (max-width: 600px) {
-  .image img.my-photo {
+   img.my-photo {
     display: block;
-    text-align: center;
-    margin: 0;
+  padding-right: 25%;
+  padding-left: 25%;
   }
-
+  .my-photo {
+    text-align: center;
+  }
+  .wrapper {
+    margin-bottom: 15%;
+  }
+/* .main a h5{
+  margin-bottom: 5%;
+} */
   /* .main {
     width: 80%;
   } */
@@ -59,10 +68,5 @@ h5:hover {
     width: 90%;
   }
 
-  h1 {
-    width: 90%;
-  }
-  h3 {
-    width: 90%;
-  }
+
 }

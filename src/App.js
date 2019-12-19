@@ -28,7 +28,6 @@ function App() {
         <Route path='/pets' component={PetsProject}/>
       </div>
 
-      <footer className="footer">Footer</footer>
     </div>
   </div>);
 }

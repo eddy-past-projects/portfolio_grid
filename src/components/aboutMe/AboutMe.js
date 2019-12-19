@@ -21,7 +21,7 @@ const AboutMe = () => {
       </h1>
       <h3>I recently graduated from the immersive software engineering program at Flatiron School. I'm eager to merge my newly acquired skills with the common thread of engaging the user with visually interesting solutions.</h3><br/>
 
-    </div>
+
     <a href={ceddy_resume} >
       <h5>click here to view my resume </h5>
     </a>
@@ -31,6 +31,8 @@ const AboutMe = () => {
     <a href="mailto:cynthiaeddynyc@gmail.com">
       <h5>| email </h5>
     </a>
+      </div>
+
   </div>)
 }
 
