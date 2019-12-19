@@ -1,20 +1,11 @@
 
-@media all and (min-width: 600px) {
-  .aside.logo.swirl {
-    width: 15%;
-    height: 15%;
-
-}
-}
 
 
 .aside.logo.swirl {
   transition: all 3s;
   transition-timing: ease-in-out;
   animation: rotation 2s;
-  width: 27%;
-  height: 27%;
-  z-index: 2;
+   z-index: 2;
 }
 
 .aside.logo {
@@ -61,4 +52,11 @@ justify-content: center;
     -webkit-transform: rotate(360deg);
     transform: rotate(-360deg);
   }
+}
+@media all and (max-width: 600px) {
+  .swirl {
+    width: 25%;
+    height: inherit%;
+
+}
 }

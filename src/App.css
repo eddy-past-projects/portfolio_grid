@@ -32,7 +32,6 @@
 }
 .main {
   text-align: left;
-  background: deepskyblue;
 }
 
 @media all and (min-width: 800px) {
