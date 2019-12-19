@@ -11,7 +11,7 @@
 
 .solo-card {
   width: 38rem;
-  height: 35.25rem;
+  height: inherit;
   /* object-fit: cover; */
   background-color: #f7f7f2;
   padding: 1.5rem;
@@ -21,8 +21,8 @@
 img.project-solo {
   text-align: left;
   letter-spacing: 1px;
-  width: 35rem;
-  height: 20rem;
+  width: 100%;
+  height: inherit;
   float: left;
   display: inline-block;
   vertical-align: top;
