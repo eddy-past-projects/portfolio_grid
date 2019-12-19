@@ -1,0 +1,16 @@
+circle {
+  fill: rgba(0,0,0,.5);
+  /* position: fixed; */
+ }
+
+ .home-image {
+ background-size: cover;
+ height: 100%;
+ width: 100%;
+ position: relative;
+ z-index: 10;
+ background-image: url('https://images.unsplash.com/photo-1565014312097-24e9c95b0bcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60');
+ /* background-image: url('https://images.unsplash.com/photo-1564933983845-b9c52e170500?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60'); */
+ /* background-image: url('https://images.unsplash.com/photo-1570569927730-c32b18b8ebb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60'); */
+   border: none;
+ }
