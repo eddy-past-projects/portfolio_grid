@@ -1,3 +1,13 @@
+
+@media all and (min-width: 600px) {
+  .aside.logo.swirl {
+    width: 15%;
+    height: 15%;
+
+}
+}
+
+
 .aside.logo.swirl {
   transition: all 3s;
   transition-timing: ease-in-out;
@@ -8,6 +18,8 @@
 }
 
 .aside.logo {
+  padding-bottom: 25px;
+  padding-top: 10px;
   align-items: center;
 display: flex;
 justify-content: center;
