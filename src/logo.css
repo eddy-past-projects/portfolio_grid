@@ -27,6 +27,8 @@ justify-content: center;
   }
 }
 
+
+
 .swirl:hover {
   -webkit-animation: spin 2s ease-in-out;
   -moz-animation: spin 2s ease-in-out;
