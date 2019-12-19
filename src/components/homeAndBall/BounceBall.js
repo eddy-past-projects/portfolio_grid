@@ -76,7 +76,7 @@ class BounceBall extends React.Component {
 
       <
       Ball x = {
-        70
+        140
       }
       y = {
         this.state.y
