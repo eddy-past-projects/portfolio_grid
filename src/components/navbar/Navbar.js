@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 
-const Navbar = () => {
+class Navbar extends React.Component  {
+
+  render(){
 
   return (<div>
       <nav id="navbar">
@@ -27,6 +29,7 @@ const Navbar = () => {
 
     </div>)
   }
+}
 
 
 

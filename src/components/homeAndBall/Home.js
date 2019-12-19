@@ -1,11 +1,15 @@
 import React from 'react'
-import BounceBall from './BounceBall'
 import './Home.css'
 
-const Home = () => {
-  return (<div >
 
-    <BounceBall/>
+const Home = () => {
+  return (<div>
+    <div className='home-image'>
+
+  </div>
+  <div className='box'>
+  </div>
+
   </div>)
 
 }
