@@ -20,7 +20,7 @@ function App() {
 
     <div className="wrapper">
       <aside className="aside logo">
-        <img src={swirl_sm} className="swirl swirlHome" alt="logo"/>
+        <img src={swirl_sm} className="swirl" alt="logo"/>
 
       </aside>
       <div className="main">

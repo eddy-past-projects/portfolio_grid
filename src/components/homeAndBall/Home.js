@@ -4,13 +4,15 @@ import './Home.css'
 
 
 const Home = () => {
-  return (<div>
+  return (<div >
     <div className='home-image'>
 
   </div>
   <div className='box'>
   </div>
+  <div className='swirlHome'>
 
+</div>
   </div>)
 
 }

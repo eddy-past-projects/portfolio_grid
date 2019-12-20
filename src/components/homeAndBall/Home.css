@@ -24,10 +24,17 @@ padding-left: 25%;
 padding-bottom: 28%;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 768px) {
+  .home-image {
+    height: 75%;
+  }
+  .box {
+    padding-bottom: 75%;
+    height: 45%
+  }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 480px) {
   .home-image {
     height: 55%;
   }
