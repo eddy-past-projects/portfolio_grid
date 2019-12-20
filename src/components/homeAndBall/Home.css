@@ -1,7 +1,4 @@
-circle {
-  fill: rgba(0,0,0,.5);
-  /* position: fixed; */
- }
+
 
  .home-image {
  background-size: cover;
@@ -25,6 +22,9 @@ padding-top: 25%;
 padding-right: 25%;
 padding-left: 25%;
 padding-bottom: 28%;
+}
+
+@media all and (max-width: 600px) {
 }
 
 @media all and (max-width: 600px) {

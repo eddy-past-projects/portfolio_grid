@@ -11,7 +11,8 @@
 .aside.logo {
   padding-bottom: 10px;
   padding-top: 10px;
-  align-items: center;
+  margin-top: 150px;
+  align-items: flex-start;
 display: flex;
 justify-content: center;
 
@@ -59,6 +60,11 @@ justify-content: center;
   .swirl {
     width: 25%;
     height: inherit%;
+
+}
+.aside.logo {
+  margin-top: 0px;
+
 
 }
 }
