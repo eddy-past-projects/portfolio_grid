@@ -1,15 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import './Navbar.css'
 
+class Navbar extends React.Component {
 
-class Navbar extends React.Component  {
+  render() {
 
-  render(){
-
-  return (<div>
+    return (<div>
       <nav id="navbar">
-
 
         <h2>
           <li>
@@ -23,15 +21,10 @@ class Navbar extends React.Component  {
           </li>
         </h2>
 
-
-
       </nav>
 
     </div>)
   }
 }
 
-
-
-
-  export default Navbar
+export default Navbar

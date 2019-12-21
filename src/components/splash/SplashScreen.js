@@ -1,6 +1,8 @@
 import React from 'react'
 import Home from '../home/Home'
 import Fake from '../fake/Fake'
+import Splash from '../home/Splash'
+
 
 
 
@@ -30,8 +32,14 @@ class SplashScreen extends React.Component {
   }
 
 
+
   render() {
-    return (!this.state.timePassed) ? <Home/> :  <Fake/>
+    return (
+        !this.state.timePassed ? <Splash/> :  <Home/>
+
+
+
+    )
 
   }
 }
@@ -40,11 +48,5 @@ class SplashScreen extends React.Component {
 export default SplashScreen
 
 
-// if (!this.state.timePassed) {
-//   return <Home / > ;
-// } else {
-//   (this.state.timePassed)
-//   return <Fake / > ;
-// }
-// }
+
 // }

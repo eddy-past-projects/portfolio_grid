@@ -19,21 +19,24 @@ function App() {
   return (<div className='container'>
 
 
+
     <Navbar/>
 
     <div className="wrapper">
       <aside className="aside logo">
-        <Route path='/' component={Home}/>
         <img src={swirl_sm} className="swirl" alt="logo"/>
 
       </aside>
       <div className="main">
+        <Route exact path='/' component={SplashScreen}/>
+          <Route path='/projects' component={Home}/>
 
-        <Route path='/projects' component={Projects}/>
+
         <Route path='/about-me' component={AboutMe}/>
         <Route path='/kayak' component={KayakProject}/>
         <Route path='/abode' component={AbodeProject}/>
         <Route path='/pets' component={PetsProject}/>
+
       </div>
     </div>
   </div>);
