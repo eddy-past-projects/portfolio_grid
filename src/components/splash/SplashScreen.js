@@ -1,7 +1,6 @@
 import React from 'react'
 import Home from '../home/Home'
-import Fake from '../fake/Fake'
-import Splash from '../home/Splash'
+import Splash from './Splash'
 
 
 

@@ -11,13 +11,11 @@ import PetsProject from './components/projects/PetsProject'
 import AboutMe from './components/aboutMe/AboutMe'
 import Home from './components/home/Home'
 import SplashScreen from './components/splash/SplashScreen'
-import Fake from './components/fake/Fake'
 
 
 
 function App() {
   return (<div className='container'>
-
 
 
     <Navbar/>

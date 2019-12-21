@@ -29,12 +29,10 @@
 .pattern-black {
   position: relative;
   border-radius: 100%;
-
   width: 70px;
   height: 40px;
   transform: rotate(30deg);
   background-color: black;
-  image: url('../../assets/swirl.svg');
   left: 0px;
   top: 15px;
 }

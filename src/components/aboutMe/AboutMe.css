@@ -44,9 +44,18 @@ h5:hover {
   grid-template-rows: auto;
   grid-gap: 20px;
 }
+
+
+
+@media all and (max-width: 770px) {
+  .text {
+    width: 90%
+  }
+
+}
+
 @media all and (max-width: 600px) {
   .my-photo {
-    /* align-items: center; */
     text-align: center;
     display: flex;
     justify-content: center;

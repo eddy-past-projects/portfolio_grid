@@ -1,16 +1,18 @@
 import React from 'react'
-import './myLogoRoll.css'
+import '../home/myLogoRoll.css'
 import swirl_sm from '../../assets/swirl_sm.jpg'
+import '../home/Home.css'
 
 
 
 
 
-const Home = () => {
+
+const Splash = () => {
   return (<div >
     <div className='home-image'>
       <div className="homeLogo swirl_sm">
-        <img src={swirl_sm} className="swirl_sm" alt="logo"/>
+        <img src={swirl_sm} className="swirl" alt="logo"/>
 
 
       </div>
@@ -20,4 +22,4 @@ const Home = () => {
   </div>)
 
 }
-export default Home
+export default Splash

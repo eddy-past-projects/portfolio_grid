@@ -45,6 +45,15 @@ img.project-solo {
 }
 
 
+@media all and (max-width: 770px) {
+  .solo-card {
+    width: 91%;
+    background-color: #f7f7f2;
+    padding: 1rem;
+    /* text-align: center; */
+  }
+}
+
 @media all and (max-width: 600px) {
   .solo-card {
     width: 91%;
