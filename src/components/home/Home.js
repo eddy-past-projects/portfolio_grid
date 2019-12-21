@@ -1,7 +1,6 @@
 import React from 'react'
-import './Home.css'
 import './myLogoRoll.css'
-import swirl2 from '../../assets/swirl2.jpg'
+import swirl_sm from '../../assets/swirl_sm.jpg'
 
 
 
@@ -11,7 +10,7 @@ const Home = () => {
   return (<div >
     <div className='home-image'>
       <div className="homeLogo swirl_sm">
-        <img src={swirl2} className="swirl2" alt="logo"/>
+        <img src={swirl_sm} className="swirl_sm" alt="logo"/>
 
 
       </div>

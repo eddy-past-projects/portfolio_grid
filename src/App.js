@@ -18,12 +18,12 @@ import Fake from './components/fake/Fake'
 function App() {
   return (<div className='container'>
 
-  <Route path='/' component={Home}/>
 
     <Navbar/>
 
     <div className="wrapper">
       <aside className="aside logo">
+        <Route path='/' component={Home}/>
         <img src={swirl_sm} className="swirl" alt="logo"/>
 
       </aside>
