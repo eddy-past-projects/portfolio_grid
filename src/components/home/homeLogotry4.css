@@ -7,37 +7,24 @@
   top: 250px;
   /* left: 40%; */
 }
-/* .ball {
+.ball {
   position: relative;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  image: url('../../assets/swirl.svg');
   background-color: white;
   border: 1px solid black;
   top: 175px;
-  transform: rotate(360deg); */
-
-
-  .ball {
-    position: relative;
-    border-radius: 50%;
-    image: url('assets/swirl_sm.jpg')
-    background-color: white;
-    border: 1px solid black;
-    top: 175px;
-    transform: rotate(360deg);
-
 
 
   /* left: 38%; */
   /* transform: rotate(0deg); */
   animation: move-left 3.5s infinite, rotate-right 3.5s infinite, change-color 3.5s infinite, spin 3.5s ease-in-out;
 
-  /* animation-iteration-count: 1;
-  animation-fill-mode:forwards; */
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
   /* animation-direction: alternate; */
 }
-/* .pattern-black {
+.pattern-black {
   position: relative;
   border-radius: 100%;
   width: 70px;
@@ -46,7 +33,7 @@
   background-color: black;
   left: 0px;
   top: 15px;
-} */
+}
 @keyframes move-left {
   0% {left: 0%;}
   100% {left: 50%;}

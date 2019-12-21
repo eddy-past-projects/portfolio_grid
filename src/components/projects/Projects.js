@@ -16,6 +16,7 @@ class Projects extends React.Component {
 
 
   return (
+    <div className='text'>
     <div className='cards'>
 
 
@@ -25,7 +26,7 @@ class Projects extends React.Component {
 
           <Link to='/abode'><img src={abode} className='project-card' alt=''/></Link>
 
-
+</div>
 
       </div>
   )

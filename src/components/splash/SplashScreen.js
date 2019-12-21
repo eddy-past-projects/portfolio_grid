@@ -22,7 +22,7 @@ class SplashScreen extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setTimePassed();
-    }, 3000);
+    }, 4500);
   }
 
   setTimePassed() {

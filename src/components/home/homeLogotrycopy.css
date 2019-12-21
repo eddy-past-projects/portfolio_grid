@@ -17,7 +17,7 @@
   top: 175px;
   left: 38%;
   transform: rotate(0deg);
-  animation: move-left 3.5s infinite, rotate-right 3.5s infinite, change-color 3.5s infinite;
+  animation: move-left 2s infinite, rotate-right 2s infinite, change-color 2.5s infinite;
   animation-direction: alternate;
 }
 .pattern-black {

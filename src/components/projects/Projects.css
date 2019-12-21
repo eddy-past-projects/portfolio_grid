@@ -17,6 +17,9 @@
   padding: 1.5rem;
 }
 
+.text {
+  width: 65%;
+}
 
 img.project-solo {
   text-align: left;

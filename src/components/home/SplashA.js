@@ -1,9 +1,6 @@
 import React from 'react'
-import './myLogoRoll.css'
-import swirl_sm from '../../assets/swirl_sm.jpg'
 import './Home.css'
-
-
+import './homeLogotry.css'
 
 
 
@@ -11,12 +8,14 @@ import './Home.css'
 const Splash = () => {
   return (<div >
     <div className='home-image'>
-      <div className="homeLogo swirl_sm">
-        <img src={swirl_sm} className="swirl" alt="logo"/>
-
+      <div className="ball">
+        <div className='pattern-black'>
+        </div>
 
       </div>
+      <div className='platform'>
 
+  </div>
 </div>
 
   </div>)
