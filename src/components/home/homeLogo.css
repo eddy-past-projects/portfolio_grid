@@ -1,0 +1,70 @@
+
+
+
+.aside.logo.swirl {
+  transition: all 3s;
+  transition-timing: ease-in-out;
+  animation: rotation 2s;
+   z-index: 2;
+}
+
+.aside.logo {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 150px;
+  align-items: flex-start;
+display: flex;
+justify-content: center;
+
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
+
+
+
+.swirl:hover {
+  -webkit-animation: spin 2s ease-in-out;
+  -moz-animation: spin 2s ease-in-out;
+  animation: spin 2s ease-in-out;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+  }
+}
+@media all and (max-width: 600px) {
+  .swirl {
+    width: 25%;
+    height: inherit%;
+
+}
+.aside.logo {
+  margin-top: 0px;
+
+
+}
+}

@@ -1,0 +1,72 @@
+
+.platform {
+  position: absolute;
+  width: 25%;
+  height: 1px;
+  background-color: black;
+  top: 250px;
+  /* left: 40%; */
+}
+.ball {
+  position: relative;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border: 1px solid black;
+  top: 175px;
+  transform: rotate(360deg);
+
+
+
+  /* left: 38%; */
+  /* transform: rotate(0deg); */
+  animation: move-left 3.5s infinite, rotate-right 3.5s infinite, change-color 3.5s infinite, spin 3.5s ease-in-out;
+
+  /* animation-iteration-count: 1;
+  animation-fill-mode:forwards; */
+  /* animation-direction: alternate; */
+}
+/* .pattern-black {
+  position: relative;
+  border-radius: 100%;
+  width: 70px;
+  height: 40px;
+  transform: rotate(30deg);
+  background-color: black;
+  left: 0px;
+  top: 15px;
+} */
+@keyframes move-left {
+  0% {left: 0%;}
+  100% {left: 50%;}
+}
+@keyframes rotate-right {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
+
+@-moz-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+
+@keyframes change-color {
+  0% {background-color: white;}
+  20% {background-color: lightgreen;}
+  40% {background-color: cyan;}
+  60% {background-color: violet;}
+  80% {background-color: yellow;}
+  100% {background-color: white;}
+}
+/* @keyframes change-background {
+  0% {background-color: white;}
+  20% {background-color: lightgreen;}
+  40% {background-color: violet}
+  60% {background-color: cyan;}
+  80% {background-color: white;}
+  100% {background-color: yellow;}
+} */

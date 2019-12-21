@@ -9,12 +9,16 @@ import KayakProject from './components/projects/KayakProject'
 import AbodeProject from './components/projects/AbodeProject'
 import PetsProject from './components/projects/PetsProject'
 import AboutMe from './components/aboutMe/AboutMe'
-import Home from './components/homeAndBall/Home'
+import Home from './components/home/Home'
+import SplashScreen from './components/splash/SplashScreen'
+import Fake from './components/fake/Fake'
+
 
 
 function App() {
   return (<div className='container'>
-  <Route exact path='/' component={Home}/>
+
+  <Route path='/' component={Home}/>
 
     <Navbar/>
 
@@ -31,7 +35,6 @@ function App() {
         <Route path='/abode' component={AbodeProject}/>
         <Route path='/pets' component={PetsProject}/>
       </div>
-
     </div>
   </div>);
 }
