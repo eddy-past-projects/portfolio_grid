@@ -10,7 +10,7 @@ const PetsProject = () =>{
 
   return (
     <div className='solo-card'>
-      <a href="https://pet-adopts.herokuapp.com/">
+      <a href="https://pets-frontendtoo.herokuapp.com">
   <img src={pets} className='project-solo' alt='puppy'/> </a>
 
 
