@@ -20,11 +20,11 @@ const KayakProject = () =>{
 
 
 
-<h3>an app for kayakers to log and make comments on past trips and create upcoming ones
+<h3>Come On Kayak is an app for kayakers to make comments on trips and create upcoming trips
 • Persists data to a Rails database and provides a Rails API
 • Displays a React, Redux frontend with Semantic-ui-React
 • Fetches data from the Rails API using Javascript<br/>
-– work in progress –</h3>
+ </h3>
 </div>
 
 

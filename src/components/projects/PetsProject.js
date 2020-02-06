@@ -18,9 +18,9 @@ const PetsProject = () =>{
 
 
 
-  <h3><br/>an app for adopting/maintaining a virtual pet without the upkeep of a live one • Persists each user's pets and experience to a Postgres database
-    • Employs a Single Page Application with Javascript and CSS <br/>
-  – work in progress –
+  <h3><br/>Adopt A Pet! is an app for adopting/maintaining a virtual pet without the upkeep of a live one • Persists each user to a Postgres database
+    • Presently MVP, rebuilt from a Single Page Application with Javascript to React, Redux frontend and a Rails API
+    • Employs flexbox with hamburger menu<br/>
   </h3>
 </div>
 
@@ -29,5 +29,3 @@ const PetsProject = () =>{
 }
 
 export default PetsProject
-
-// <a href="https://pets-frontendtoo.herokuapp.com">
