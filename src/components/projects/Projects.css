@@ -1,4 +1,13 @@
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+}
 
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 
 .project-card {
@@ -10,12 +19,17 @@
 }
 
 .solo-card {
-  width: 38rem;
+  width: 40rem;
   height: inherit;
   /* object-fit: cover; */
   background-color: #f7f7f2;
   padding: 1.5rem;
 }
+
+/* .solo-card.pet-project{
+  width: 40rem;
+
+} */
 
 
 img.project-solo {
