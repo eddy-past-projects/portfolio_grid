@@ -15,10 +15,10 @@ const PetsProject = () => {
 
       <ReactPlayer url='https://youtu.be/4kldC32EnBk' controls={true}
         className='react-player'
-        playing
+
         width='100%'
-        height='100%'
-/>
+
+    />
 
 
   <h3>Adopt A Pet is an app for adopting/maintaining a virtual pet without the upkeep of a live one • Persists each user to a Postgres database

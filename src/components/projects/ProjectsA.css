@@ -1,3 +1,13 @@
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 
 .project-card {
@@ -15,6 +25,12 @@
   background-color: #f7f7f2;
   padding: 1.5rem;
 }
+
+/* .solo-card.pet-project{
+  width: 40rem;
+
+} */
+
 
 img.project-solo {
   text-align: left;
@@ -39,30 +55,6 @@ img.project-solo {
   grid-gap: 20px;
 }
 
-  img.project-solo {
-    text-align:   center;
-    letter-spacing: 1px;
-    width: 100%;
-    height: inherit;
-    /* float: left; */
-    display: inline-block;
-    vertical-align: top;
-    margin-bottom: 1rem;
-  }
-
-  img.project-card {
-    width: 90%;
-    height: inherit;
-    /* margin: 1rem 1rem; */
-  }
-
-h3 {
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: .05em;
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 0px;
-}
 
 @media all and (max-width: 770px) {
   .solo-card {
@@ -79,4 +71,42 @@ h3 {
     background-color: #f7f7f2;
     padding: 1rem;
     /* text-align: center; */
-  }}
+  }
+
+  img.project-solo {
+    text-align:   center;
+    letter-spacing: 1px;
+    width: 100%;
+    height: inherit;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 1rem;
+  }
+
+  img.project-card {
+
+    width: 90%;
+    height: inherit;
+    /* margin: 1rem 1rem; */
+  }
+
+  .project-card {
+    text-align: left;
+    letter-spacing: 1px;
+
+    margin: 1rem 1rem;
+  }
+}
+
+
+
+
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: .05em;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
