@@ -13,7 +13,7 @@ const PetsProject = () => {
     <div className='solo-card pet-project'>
       <div className='player-wrapper'>
 
-      <ReactPlayer url='https://youtu.be/4kldC32EnBk' controls={true}
+      <ReactPlayer url='https://youtu.be/fUbOiKkOcqw' controls={true}
         className='react-player'
 
         width='100%'
