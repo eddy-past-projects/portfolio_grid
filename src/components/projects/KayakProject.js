@@ -10,7 +10,7 @@ const KayakProject = () =>{
 
   return (
     <div className='solo-card'>
-      <a  href="https://kayaking-frontend.herokuapp.com/">
+      <a  href="https://kayaking-client.herokuapp.com/">
     <img src={kayaksWh} className='project-solo' alt='kayak'/> </a>
 
 
