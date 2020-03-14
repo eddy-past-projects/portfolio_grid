@@ -16,7 +16,7 @@ class Projects extends React.Component {
       <div className='text'>
         <div className='cards'>
           <Link to='/pets'><img src={pets} className='project-card' alt=''/></Link>
-            <Link to='/kayak'><img src={kayaksWh} className='project-card' alt=''/></Link>
+          <Link to='/kayak'><img src={kayaksWh} className='project-card' alt=''/></Link>
             <Link to='/abode'><img src={abode} className='project-card' alt=''/></Link>
 
           </div>
