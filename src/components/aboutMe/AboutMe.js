@@ -10,7 +10,6 @@ const AboutMe = () => {
 				<div className="image">
 					<img src={linkedin2} className="my-photo" alt="" />
 				</div>
-				<div className="filler-box" />
 
 				<h1>I've been around!</h1>
 				<h3>

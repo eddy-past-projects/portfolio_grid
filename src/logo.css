@@ -42,10 +42,22 @@
 }
 @media all and (max-width: 600px) {
 	.swirl {
-		width: 25%;
-		height: inherit%;
+		width: 55%;
+		height: 55%;
 	}
-	.aside.logo {
-		margin-top: 0px;
+	.aside.logo.swirl {
+		transition: all 3s;
+		transition: ease-in-out;
+		animation: rotation 2s;
+		z-index: 2;
+	}
+
+	@keyframes rotation {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(0deg);
+		}
 	}
 }

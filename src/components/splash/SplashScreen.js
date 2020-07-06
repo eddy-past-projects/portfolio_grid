@@ -1,51 +1,45 @@
-import React from 'react'
-import Home from '../home/Home'
-import Splash from './Splash'
-
-
-
-
-
-
+import React from 'react';
+import Home from '../home/Home';
+import Splash from './Splash';
 
 class SplashScreen extends React.Component {
-  constructor(props) {
-    super(props);
+	constructor(props) {
+		super(props);
 
+		this.state = {
+			width: window.innerWidth,
+			timePassed: false
+		};
+	}
 
-    this.state = {
-      timePassed: false,
-    };
-  }
+	componentDidMount() {
+		window.addEventListener('resize', this.handleWindowSizeChange);
+		setTimeout(() => {
+			this.setTimePassed();
+		}, 4500);
+	}
 
-  componentDidMount() {
-    setTimeout(() => {
-      this.setTimePassed();
-    }, 4500);
-  }
+	componentWillUnmount() {
+		window.removeEventListener('resize', this.handleWindowSizeChange);
+	}
 
-  setTimePassed() {
-    this.setState({
-      timePassed: true
-    });
-  }
+	handleWindowSizeChange = () => {
+		this.setState({ width: window.innerWidth });
+	};
 
+	setTimePassed() {
+		this.setState({
+			timePassed: true
+		});
+	}
 
+	render() {
+		let isMobile;
+		let width = this.state.width;
+		width <= 500 ? (isMobile = true) : (isMobile = false);
 
-  render() {
-    return (
-        !this.state.timePassed ? <Splash/> :  <Home/>
-
-
-
-    )
-
-  }
+		return !this.state.timePassed && !isMobile ? <Splash /> : <Home />;
+	}
 }
 
-
-export default SplashScreen
-
-
-
-// }
+export default SplashScreen;

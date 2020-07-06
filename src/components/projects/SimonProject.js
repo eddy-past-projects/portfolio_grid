@@ -9,9 +9,9 @@ const SimonProject = () => {
 			</a>
 
 			<h3>
-				Color Pick Simon is variation of a childhood game. • In order to win, you match color sequences a total
-				of 10 times. • Sequences start with one color, and then add one to each sucessful sequence. • Built with
-				CSS, HTML and Javascript.
+				<strong>Color Pick Simon</strong> is variation of a childhood game.<br />• In order to win, you match
+				color sequences a total of 10 times.<br />• Sequences start with one color, and then add one to each
+				sucessful sequence.<br />• Built with CSS, HTML and Javascript.
 			</h3>
 		</div>
 	);

@@ -11,3 +11,21 @@
 
 	border: none;
 }
+
+@media (max-width: 1025px) {
+	.home-image {
+		margin-top: 35px;
+	}
+}
+
+@media (max-width: 800px) {
+	.home-image {
+		margin-top: 180px;
+	}
+}
+
+@media (max-width: 500px) {
+	.home-image {
+		margin-top: -80px;
+	}
+}

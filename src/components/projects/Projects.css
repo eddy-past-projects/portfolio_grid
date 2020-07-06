@@ -52,10 +52,14 @@ img.project-card {
 
 h3 {
 	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 	letter-spacing: .05em;
 	font-size: 18px;
 	line-height: 1.5;
 	margin-bottom: 0px;
+}
+strong {
+	font-weight: 600;
 }
 
 @media all and (max-width: 770px) {
@@ -63,6 +67,7 @@ h3 {
 		grid-template-columns: 1fr;
 		margin: 0 20px;
 	}
+
 	.solo-card {
 		width: 91%;
 		background-color: #f7f7f2;
