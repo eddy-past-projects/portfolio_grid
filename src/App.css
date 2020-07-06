@@ -1,7 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
 .App {
 	text-align: center;
 }
-
+.container {
+	height: 100vh;
+	margin: 0;
+}
 .wrapper {
 	display: flex;
 	flex-flow: row wrap;
@@ -13,9 +20,6 @@
 	align-items: center;
 }
 
-.footer {
-	background: lightgreen;
-}
 a {
 	text-decoration: none;
 }
@@ -23,7 +27,10 @@ a:hover {
 	color: grey;
 }
 
-@media all and (min-width: 600px) {
+@media (min-width: 600px) {
+	.wrapper {
+		margin-top: 10px;
+	}
 	.aside {
 		flex: 1;
 	}
@@ -50,5 +57,11 @@ a:hover {
 	}
 	.footer {
 		order: 4;
+	}
+}
+@media all and (max-width: 600px) {
+	.wrapper {
+		margin-top: 30px;
+		margin-bottom: 10%;
 	}
 }

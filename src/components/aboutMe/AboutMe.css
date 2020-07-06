@@ -1,77 +1,89 @@
 h1 {
-  font-family: 'Esteban', serif;
-  font-size: 50px;
-  line-height: .9;
+	font-family: 'Esteban', serif;
+	font-size: 50px;
+	line-height: .9;
 }
 
 h5 {
-  margin-top: 2rem;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 10px;
-  letter-spacing: .5em;
-  text-transform: uppercase;
-  font-weight: 700;
-  display: inline;
-  color: black;
+	margin-top: 2rem;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 10px;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline;
+	color: black;
 }
 
 h5:hover {
-  color: grey;
+	color: grey;
 }
+/* .filler-box {
+	height: 80px;
+	background: transparent;
+} */
 
 .my-photo {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  float: right;
-
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	/* float: right; */
+	position: absolute;
+	top: -100px;
+	right: -100px;
 }
 
 .text {
-  width: 65%;
+	width: 65%;
+	position: relative;
 }
-
 
 .main {
-  width: 100%;
-  max-width: 1240px;
-  margin: 0 auto;
+	width: 100%;
+	max-width: 1240px;
+	margin: 0 auto;
 
+	display: grid;
 
-  display: grid;
-
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-gap: 20px;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-gap: 20px;
 }
 
-
-
 @media all and (max-width: 770px) {
-  .text {
-    width: 90%
-  }
-
+	.text {
+		width: 90%;
+	}
+	.my-photo {
+		top: -60px;
+		right: -20px;
+	}
 }
 
 @media all and (max-width: 600px) {
-  .my-photo {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-  }
+	.my-photo {
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		float: none;
+		margin-top: 20px;
+		position: relative;
+		top: 0;
+		right: 0;
+	}
 
-
-  .wrapper {
+	/* .wrapper {
     margin-bottom: 10%;
-  }
+    margin-top: 30px;
 
-  .text {
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: left;
-    width: 90%;
-  }
+  } */
 
-
+	.text {
+		padding-left: 5%;
+		padding-right: 5%;
+		text-align: left;
+		width: 100%;
+		margin-bottom: 30px;
+	}
 }

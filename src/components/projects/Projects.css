@@ -3,13 +3,12 @@
 	letter-spacing: 1px;
 	width: 22.5rem;
 	height: 12.75rem;
-	margin: 1rem 1rem;
+	margin-top: 40px;
 }
 
 .solo-card {
 	width: 40rem;
 	height: inherit;
-	/* object-fit: cover; */
 	background-color: #f7f7f2;
 	padding: 1.5rem;
 }
@@ -20,21 +19,8 @@ img.project-solo {
 	width: 100%;
 	height: inherit;
 	float: left;
-	/* display: inline-block; */
 	vertical-align: top;
 	margin-bottom: 1rem;
-}
-.project-card.pets {
-	grid-area: cardPets;
-}
-.project-card.kayak {
-	grid-area: cardKayak;
-}
-.project-card.abode {
-	grid-area: cardAbode;
-}
-.project-card.simon {
-	grid-area: cardSimon;
 }
 
 .main {
@@ -45,8 +31,6 @@ img.project-solo {
 .cards {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: auto;
-	grid-gap: 15px;
 }
 
 img.project-solo {
@@ -77,10 +61,15 @@ h3 {
 @media all and (max-width: 770px) {
 	.cards {
 		grid-template-columns: 1fr;
+		margin: 0 20px;
 	}
 	.solo-card {
 		width: 91%;
 		background-color: #f7f7f2;
 		padding: 1rem;
+		margin-top: 20px;
+	}
+	img.project-card {
+		width: 100%;
 	}
 }
