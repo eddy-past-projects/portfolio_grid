@@ -8,21 +8,19 @@ import './Projects.css';
 class Projects extends React.Component {
 	render() {
 		return (
-			<div className="text">
-				<div className="cards">
-					<Link to="/pets">
-						<img src={pets} className="project-card" alt="" />
-					</Link>
-					<Link to="/kayak">
-						<img src={kayaksWh} className="project-card" alt="" />
-					</Link>
-					<Link to="/abode">
-						<img src={abode} className="project-card" alt="" />
-					</Link>
-					<Link to="/simon">
-						<img src={abode} className="project-card" alt="" />
-					</Link>
-				</div>
+			<div className="cards">
+				<Link to="/pets">
+					<img src={pets} className="project-card pets" alt="" />
+				</Link>
+				<Link to="/kayak">
+					<img src={kayaksWh} className="project-card kayak" alt="" />
+				</Link>
+				<Link to="/abode">
+					<img src={abode} className="project-card abode" alt="" />
+				</Link>
+				<Link to="/simon">
+					<img src={abode} className="project-card simon" alt="" />
+				</Link>
 			</div>
 		);
 	}

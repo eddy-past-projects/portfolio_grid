@@ -1,48 +1,54 @@
 .App {
- text-align: center;
+	text-align: center;
 }
-
-
 
 .wrapper {
-  display: flex;
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	height: 70vh;
+	justify-content: center;
+	align-items: center;
 }
-
-.wrapper > * {
-  flex: 1 100%;
-}
-
 
 .footer {
-  background: lightgreen;
+	background: lightgreen;
 }
- a{
-   text-decoration: none;
- }
- a:hover {
-   color: grey;
- }
-
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: grey;
+}
 
 @media all and (min-width: 600px) {
-  .aside { flex: 1  }
-  .main    { flex: 1  }
-  .main {
-    text-align: center;
-  }
-
+	.aside {
+		flex: 1;
+	}
+	.main {
+		flex: 1;
+	}
+	.main {
+		text-align: center;
+	}
 }
 .main {
-  text-align: left;
+	text-align: left;
 }
 
 @media all and (min-width: 800px) {
-  .main    { flex: 2 0px; }
-  .logo { order: 1; }
-  .main    { order: 2; }
-  .footer  { order: 4; }
+	.main {
+		flex: 2 0px;
+	}
+	.logo {
+		order: 1;
+	}
+	.main {
+		order: 2;
+	}
+	.footer {
+		order: 4;
+	}
 }

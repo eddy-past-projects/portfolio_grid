@@ -16,7 +16,6 @@ import SplashScreen from './components/splash/SplashScreen';
 function App() {
 	return (
 		<div className="container">
-			<Home />
 			<Navbar />
 
 			<div className="wrapper">
