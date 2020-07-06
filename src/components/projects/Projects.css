@@ -1,82 +1,71 @@
-
-
 .project-card {
-  text-align: left;
-  letter-spacing: 1px;
-  width: 22.5rem;
-  height: 12.75rem;
-  margin: 1rem 1rem;
+	text-align: left;
+	letter-spacing: 1px;
+	width: 22.5rem;
+	height: 12.75rem;
+	margin: 1rem 1rem;
 }
 
 .solo-card {
-  width: 40rem;
-  height: inherit;
-  /* object-fit: cover; */
-  background-color: #f7f7f2;
-  padding: 1.5rem;
+	width: 40rem;
+	height: inherit;
+	/* object-fit: cover; */
+	background-color: #f7f7f2;
+	padding: 1.5rem;
 }
 
 img.project-solo {
-  text-align: left;
-  letter-spacing: 1px;
-  width: 100%;
-  height: inherit;
-  float: left;
-  display: inline-block;
-  vertical-align: top;
-  margin-bottom: 1rem;
+	text-align: left;
+	letter-spacing: 1px;
+	width: 100%;
+	height: inherit;
+	float: left;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 1rem;
 }
 
 .main {
-  width: 100%;
-  max-width: 1240px;
-  margin: 0 auto;
+	width: 100%;
+	max-width: 1240px;
+	margin: 0 auto;
 
-  display: grid;
+	display: grid;
 
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-gap: 20px;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-gap: 20px;
 }
 
-  img.project-solo {
-    text-align:   center;
-    letter-spacing: 1px;
-    width: 100%;
-    height: inherit;
-    /* float: left; */
-    display: inline-block;
-    vertical-align: top;
-    margin-bottom: 1rem;
-  }
+img.project-solo {
+	text-align: center;
+	letter-spacing: 1px;
+	width: 100%;
+	height: inherit;
+	/* float: left; */
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 1rem;
+}
 
-  img.project-card {
-    width: 90%;
-    height: inherit;
-    /* margin: 1rem 1rem; */
-  }
+img.project-card {
+	width: 90%;
+	height: inherit;
+	/* margin: 1rem 1rem; */
+}
 
 h3 {
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: .05em;
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 0px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: .05em;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 0px;
 }
 
 @media all and (max-width: 770px) {
-  .solo-card {
-    width: 91%;
-    background-color: #f7f7f2;
-    padding: 1rem;
-    /* text-align: center; */
-  }
+	.solo-card {
+		width: 91%;
+		background-color: #f7f7f2;
+		padding: 1rem;
+	}
 }
-
-/* @media all and (max-width: 600px) {
-  .solo-card {
-    width: 91%;
-    background-color: #f7f7f2;
-    padding: 1rem;
-    /* text-align: center; */
-  /* }} */ 
