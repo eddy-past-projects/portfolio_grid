@@ -47,19 +47,7 @@
 		transform: rotate(-360deg);
 	}
 }
-/*
-.homeLogo {
-	margin-top: 21.25%;
-	animation-iteration-count: 1;
-} *
-/* @keyframes move-left {
-	0% {
-		left: 0%;
-	}
-	100% {
-		left: 39.5%;
-	}
-} */
+
 @media all and (max-width: 1025px) {
 	.homeLogo {
 		margin-top: 500px;
@@ -68,28 +56,5 @@
 @media all and (max-width: 770px) {
 	.homeLogo {
 		margin-top: 250px;
-	}
-}
-@media all and(max-width: 500px) {
-	@keyframes move-left {
-		0% {
-			left: 0%;
-		}
-		100% {
-			left: 0%;
-		}
-	}
-	.homeLogo {
-		animation: none;
-		animation-direction: none;
-
-		animation-iteration-count: 0;
-		animation-fill-mode: forwards;
-		align-items: flex-end;
-		display: flex;
-	}
-	.homeLogo {
-		margin-top: 21.25%;
-		animation-iteration-count: 1;
 	}
 }
