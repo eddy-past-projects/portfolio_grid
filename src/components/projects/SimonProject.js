@@ -1,11 +1,11 @@
 import React from 'react';
-import abode from '../../assets/abode.jpg';
+import simon2 from '../../assets/simon2.jpg';
 
 const SimonProject = () => {
 	return (
 		<div className="solo-card">
 			<a href="https://colorpicksimon.netlify.app">
-				<img src={abode} className="project-solo" alt="game home page" />
+				<img src={simon2} className="project-solo" alt="game home page" />
 			</a>
 
 			<h3>

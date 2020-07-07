@@ -65,7 +65,7 @@ strong {
 @media all and (max-width: 770px) {
 	.cards {
 		grid-template-columns: 1fr;
-		margin: 0 20px;
+		margin: 0 20px 20px 20px;
 	}
 
 	.solo-card {
