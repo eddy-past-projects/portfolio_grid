@@ -1,7 +1,5 @@
 import React from 'react';
 import match_gamealt2 from '../../assets/match_gamealt2.jpg';
-import github_icon from '../../assets/icons/github_grey3.png';
-import play_icon from '../../assets/icons/play_grey3.png';
 
 const MatchGame = () => {
 	return (
@@ -18,13 +16,13 @@ const MatchGame = () => {
 					<li>Built with CSS, HTML and Javascript.</li>
 				</ul>
 			</h3>
-			<div className="icons-simon">
+			<div className="icons">
 				<a href="https://match-car-game.netlify.app/">
-					<img src={play_icon} className="icon play" alt="" />
+					<i class="fas fa-play-circle fa-2x" />
 				</a>
 
 				<a href="https://github.com/zoey7117/match-game">
-					<img src={github_icon} className="icon github_fe" alt="" />
+					<i class="fab fa-github fa-2x" />
 				</a>
 			</div>
 		</div>

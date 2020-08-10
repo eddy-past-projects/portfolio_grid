@@ -20,17 +20,17 @@ const AbodeProject = () => {
 					<li>Built with Ruby on Rails, Postgres, Bootstrap and CSS</li>
 				</ul>
 			</h3>
-			<div className="icons-kayak">
+			<div className="icons">
 				<a href="https://abodehaven.herokuapp.com">
-					<img src={play_icon} className="icon play" alt="" />
+					<i class="fas fa-play-circle fa-2x" />
 				</a>
 
 				<a href="https://youtu.be/tDIepDugwbc">
-					<img src={video_icon} className="icon video" alt="" />
+					<i class="fas fa-video fa-2x" />
 				</a>
 
 				<a href="https://github.com/zoey7117/abode-haven/tree/heroku_work">
-					<img src={github_icon} className="icon github_fe" alt="" />
+					<i class="fab fa-github fa-2x" />
 				</a>
 			</div>
 		</div>

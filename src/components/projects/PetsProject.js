@@ -22,8 +22,13 @@ const PetsProject = () => {
 					<li>Employs flexbox with a hamburger menu</li>
 				</ul>
 			</h3>
+
 			<div className="icons">
-				<a href="https://github.com/zoey7117/petstoo_frontend/">
+				<a href="https://pets-frontend.netlify.app">
+					<i class="fas fa-play-circle fa-2x" />
+				</a>
+
+				<a href="https://github.com/zoey7117/petstoo_frontend">
 					<i class="fab fa-github fa-2x" />
 				</a>
 

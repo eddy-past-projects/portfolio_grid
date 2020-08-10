@@ -20,20 +20,20 @@ const KayakProject = () => {
 					<li>Fetches data from the Rails API using Javascript</li>
 				</ul>
 			</h3>
-			<div className="icons-kayak">
+			<div className="icons">
 				<a href="https://kayaking-client.herokuapp.com">
-					<img src={play_icon} className="icon play" alt="" />
+					<i class="fas fa-play-circle fa-2x" />
 				</a>
 
 				<a href="https://youtu.be/9nf-APieUaM">
-					<img src={video_icon} className="icon video" alt="" />
+					<i class="fas fa-video fa-2x" />
 				</a>
 				<a href="https://github.com/zoey7117/kayaking_frontend">
-					<img src={github_icon} className="icon github_fe" alt="" />
+					<i class="fab fa-github fa-2x" />
 				</a>
 
 				<a href="https://github.com/zoey7117/kayaking-backend">
-					<img src={github_icon} className="icon github_be" alt="" />
+					<i class="fab fa-github fa-2x" />
 				</a>
 			</div>
 		</div>

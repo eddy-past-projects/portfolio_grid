@@ -20,13 +20,13 @@ const SimonProject = () => {
 					<li>Built with CSS, HTML, Javascript, CSS Grid and Flexbox.</li>
 				</ul>
 			</h3>
-			<div className="icons-simon">
+			<div className="icons">
 				<a href="https://colorpicksimon.netlify.app">
 					<i class="fas fa-play-circle fa-2x" />
 				</a>
 
 				<a href="https://github.com/zoey7117/color-pick2">
-					<i class="fab fa-github fa-2x5" />
+					<i class="fab fa-github fa-2x" />
 				</a>
 			</div>
 		</div>
