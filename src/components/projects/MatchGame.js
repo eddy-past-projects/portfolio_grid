@@ -1,13 +1,13 @@
 import React from 'react';
-import match from '../../assets/match.jpg';
+import match_gamealt2 from '../../assets/match_gamealt2.jpg';
 import github_icon from '../../assets/icons/github_grey3.png';
 import play_icon from '../../assets/icons/play_grey3.png';
 
 const MatchGame = () => {
 	return (
-		<div className="solo-card">
+		<div className="solo-card match">
 			<a href="https://match-car-game.netlify.app/">
-				<img src={match} className="project-solo" alt="game home page" />
+				<img src={match_gamealt2} className="project-solo" alt="game home page" />
 			</a>
 
 			<h3>

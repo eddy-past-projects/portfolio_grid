@@ -19,16 +19,16 @@ const PetsProject = () => {
 						Rebuilt from a Single Page Application with Javascript to React frontend and a Rails API with
 						JWT authorization
 					</li>
-					<li>Employs flexbox with hamburger menu</li>
+					<li>Employs flexbox with a hamburger menu</li>
 				</ul>
 			</h3>
 			<div className="icons">
 				<a href="https://github.com/zoey7117/petstoo_frontend/">
-					<img src={github_icon} className="icon github_fe" alt="" />
+					<i class="fab fa-github fa-2x" />
 				</a>
 
 				<a href="https://github.com/zoey7117/petstoo_backend">
-					<img src={github_icon} className="icon github_be" alt="" />
+					<i class="fab fa-github fa-2x" />
 				</a>
 			</div>
 		</div>

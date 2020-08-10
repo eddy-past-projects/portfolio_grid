@@ -32,7 +32,7 @@ function App() {
 					<Route path="/abode" component={AbodeProject} />
 					<Route path="/pets" component={PetsProject} />
 					<Route path="/simon" component={SimonProject} />
-					<Route path="/match" component={MatchGame} />
+					<Route path="/match-game" component={MatchGame} />
 				</div>
 			</div>
 		</div>

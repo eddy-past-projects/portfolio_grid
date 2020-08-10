@@ -1,8 +1,5 @@
 import React from 'react';
 import simon2 from '../../assets/simon2.jpg';
-import github_icon from '../../assets/icons/github_grey3.png';
-
-import play_icon from '../../assets/icons/play_grey3.png';
 
 const SimonProject = () => {
 	return (
@@ -12,20 +9,24 @@ const SimonProject = () => {
 			</a>
 
 			<h3>
-				<strong>Color Pick Simon</strong> is variation of a childhood game.
+				<strong>Color Pick Simon</strong> is variation of my childhood game.
 				<ul>
-					<li>In order to win, you match color sequences a total of 10 times.</li>
-					<li>Sequences start with one color, and then one is added to each successful sequence.</li>
-					<li>Built with CSS, HTML and Javascript.</li>
+					<li>
+						Player vs Simon(computer). Simon picks one color, Player matches. Simon adds one color to each
+						successful sequence.
+					</li>
+					<li>Player wins when color sequences match 10 times.</li>
+					<li>Player has the option to restart the game at any time.</li>
+					<li>Built with CSS, HTML, Javascript, CSS Grid and Flexbox.</li>
 				</ul>
 			</h3>
 			<div className="icons-simon">
 				<a href="https://colorpicksimon.netlify.app">
-					<img src={play_icon} className="icon play" alt="" />
+					<i class="fas fa-play-circle fa-2x" />
 				</a>
 
 				<a href="https://github.com/zoey7117/color-pick2">
-					<img src={github_icon} className="icon github_fe" alt="" />
+					<i class="fab fa-github fa-2x5" />
 				</a>
 			</div>
 		</div>

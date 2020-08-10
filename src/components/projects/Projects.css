@@ -44,9 +44,6 @@ img.project-solo:hover {
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
 }
 
-.react-player:hover {
-	box-shadow: 4px 4px 4px rgba(0, 0, 0, .2);
-}
 img.project-card.pets:hover {
 	box-shadow: 4px 4px 4px rgba(0, 0, 0, .2);
 }
@@ -73,17 +70,20 @@ img.github_be {
 img.github_fe {
 	height: 100%;
 }
-.icons a,
-.icons-kayak a,
-.icons-simon a {
-	width: 40px;
-	height: 40px;
-	margin-right: 15px;
-	margin-left: 15px;
+
+a {
+	margin: 0 10px;
 }
-.icons a {
-	margin-right: 10px;
-	margin-left: 10px;
+.fas,
+.fab {
+	color: rgba(0, 0, 0, .2);
+}
+.fas:hover,
+.fab:hover {
+	background-color: rgba(0, 0, 0, .5);
+	/* color: rgba(0, 0, 0, .3); */
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+	border-radius: 50%;
 }
 
 img.icon.video {
