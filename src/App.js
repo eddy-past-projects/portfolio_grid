@@ -8,6 +8,7 @@ import KayakProject from './components/projects/KayakProject';
 import AbodeProject from './components/projects/AbodeProject';
 import PetsProject from './components/projects/PetsProject';
 import SimonProject from './components/projects/SimonProject';
+import MatchGame from './components/projects/MatchGame';
 
 import AboutMe from './components/aboutMe/AboutMe';
 import Home from './components/home/Home';
@@ -31,6 +32,7 @@ function App() {
 					<Route path="/abode" component={AbodeProject} />
 					<Route path="/pets" component={PetsProject} />
 					<Route path="/simon" component={SimonProject} />
+					<Route path="/match" component={MatchGame} />
 				</div>
 			</div>
 		</div>

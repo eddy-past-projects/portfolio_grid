@@ -1,18 +1,17 @@
 import React from 'react';
-import simon2 from '../../assets/simon2.jpg';
+import match from '../../assets/match.jpg';
 import github_icon from '../../assets/icons/github_grey3.png';
-
 import play_icon from '../../assets/icons/play_grey3.png';
 
-const SimonProject = () => {
+const MatchGame = () => {
 	return (
 		<div className="solo-card">
-			<a href="https://colorpicksimon.netlify.app">
-				<img src={simon2} className="project-solo" alt="game home page" />
+			<a href="https://match-car-game.netlify.app/">
+				<img src={match} className="project-solo" alt="game home page" />
 			</a>
 
 			<h3>
-				<strong>Color Pick Simon</strong> is variation of a childhood game.
+				<strong>Match Game</strong> is variation of a childhood game.
 				<ul>
 					<li>In order to win, you match color sequences a total of 10 times.</li>
 					<li>Sequences start with one color, and then one is added to each successful sequence.</li>
@@ -20,11 +19,11 @@ const SimonProject = () => {
 				</ul>
 			</h3>
 			<div className="icons-simon">
-				<a href="https://colorpicksimon.netlify.app">
+				<a href="https://match-car-game.netlify.app/">
 					<img src={play_icon} className="icon play" alt="" />
 				</a>
 
-				<a href="https://github.com/zoey7117/color-pick2">
+				<a href="https://github.com/zoey7117/match-game">
 					<img src={github_icon} className="icon github_fe" alt="" />
 				</a>
 			</div>
@@ -32,4 +31,4 @@ const SimonProject = () => {
 	);
 };
 
-export default SimonProject;
+export default MatchGame;
