@@ -1,0 +1,182 @@
+.homeLogo {
+	/* position: relative; */
+	width: 120px;
+	height: 120px;
+	background-color: white;
+	/* margin-top: 180px; */
+	-webkit-animation: spin 1000ms linear, moveLeftToRight 5s linear;
+	-moz-animation: spin 1000ms linear, moveLeftToRight 5s linear;
+	-ms-animation: spin 1000ms linear, moveLeftToRight 5s linear;
+	animation: spin 1000ms linear, moveLeftToRight 5s linear;
+
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+
+	position: absolute;
+	left: 0;
+	/* animation: move-left 2.5s infinite, rotate-right 2.5s infinite, spin 2.5s infinite;
+	animation-direction: alternate;
+
+	animation-iteration-count: 2;
+	animation-fill-mode: forwards;
+	align-items: flex-end;
+	display: flex; */
+}
+.homeLogo .swirl {
+	border-radius: 50%;
+	transition: all 3s;
+	transition: ease-in-out;
+	animation: rotation 2s linear infinite;
+	z-index: 2;
+
+	/* transition: all 3s;
+	transition: ease-in-out;
+	animation: rotation 2s;
+	z-index: 2; */
+	position: relative;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(-359deg);
+	}
+}
+
+/* @keyframes move-left {
+	0% {
+		left: 0%;
+	}
+
+	100% {
+		left: 50%;
+	}
+}
+
+@keyframes rotate-right {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+} */
+/*
+@keyframes spin {
+	100% {
+		-webkit-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+	}
+}
+
+@media all and (max-width: 1025px) {
+	.homeLogo {
+		margin-top: 500px;
+	}
+}
+@media all and (max-width: 770px) {
+	.homeLogo {
+		margin-top: 250px;
+	}
+} */
+/* .swirl {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+} */
+/*
+.circle {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50%;
+	background: -webkit-radial-gradient(25px 25px, circle, red, #000);
+	background: -moz-radial-gradient(25px 25px, circle, red, #000);
+	background: radial-gradient(25px 25px, circle, red, #000); */
+
+/* Animation to spin and move the sphere */
+/* -webkit-animation: spin 1000ms linear, moveLeftToRight 5s linear;
+	-moz-animation: spin 1000ms linear, moveLeftToRight 5s linear;
+	-ms-animation: spin 1000ms linear, moveLeftToRight 5s linear;
+	animation: spin 1000ms linear, moveLeftToRight 5s linear;
+
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+
+	position: absolute;
+	left: 0; */
+/* } */
+
+/* Spinning the sphere using key frames */
+@-ms-keyframes spin {
+	from {
+		-ms-transform: rotate(0deg);
+	}
+	to {
+		-ms-transform: rotate(360deg);
+	}
+}
+@-moz-keyframes spin {
+	from {
+		-moz-transform: rotate(0deg);
+	}
+	to {
+		-moz-transform: rotate(360deg);
+	}
+}
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes spin {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+/* Move sphere from left to right */
+@-moz-keyframes moveLeftToRight {
+	0% {
+		left: -100px;
+	}
+	100% {
+		left: 100%;
+	}
+}
+@-ms-keyframes moveLeftToRight {
+	0% {
+		left: -100px;
+	}
+	100% {
+		left: 100%;
+	}
+}
+@keyframes moveLeftToRight {
+	0% {
+		left: -100px;
+	}
+	100% {
+		left: 100%;
+	}
+}
+@-webkit-keyframes moveLeftToRight {
+	0% {
+		left: -100px;
+	}
+	100% {
+		left: 100%;
+	}
+}

@@ -13,19 +13,19 @@ class Projects extends React.Component {
 		return (
 			<div className="cards">
 				<Link to="/pets">
-					<img src={pets} className="project-card pets" alt="" />
+					<img src={pets} className="project-card pets" alt="pet card" />
 				</Link>
 				<Link to="/simon">
-					<img src={simon2} className="project-card simon" alt="" />
+					<img src={simon2} className="project-card simon" alt="simon card" />
 				</Link>
 				<Link to="/match-game">
-					<img src={match_gamealt2} className="project-card match" alt="" />
+					<img src={match_gamealt2} className="project-card match" alt="match card" />
 				</Link>
 				<Link to="/kayak">
-					<img src={kayaksWh} className="project-card kayak" alt="" />
+					<img src={kayaksWh} className="project-card kayak" alt="kayak card" />
 				</Link>
 				<Link to="/abode">
-					<img src={abode} className="project-card abode" alt="" />
+					<img src={abode} className="project-card abode" alt="abode haven cards" />
 				</Link>
 			</div>
 		);

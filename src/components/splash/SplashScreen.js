@@ -16,7 +16,7 @@ class SplashScreen extends React.Component {
 		window.addEventListener('resize', this.handleWindowSizeChange);
 		setTimeout(() => {
 			this.setTimePassed();
-		}, 4500);
+		}, 5000);
 	}
 
 	componentWillUnmount() {

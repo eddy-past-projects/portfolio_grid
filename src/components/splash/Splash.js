@@ -6,12 +6,11 @@ import '../home/Home.css';
 const Splash = () => {
 	return (
 		<div>
-			{/* <div className='home-image'> */}
-			<div className="homeLogo swirl_sm">
-				<img src={swirl_sm} className="swirl" alt="logo" />
+			<div className="home-image">
+				<div className="homeLogo swirl_sm">
+					<img src={swirl_sm} className="swirl" alt="logo" />
+				</div>
 			</div>
-
-			{/* </div> */}
 		</div>
 	);
 };
