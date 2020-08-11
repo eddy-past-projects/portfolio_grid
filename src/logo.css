@@ -31,6 +31,14 @@
 		transform: rotate(-360deg);
 	}
 }
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
 
 /* ///////// media queries ///////// */
 
@@ -39,6 +47,7 @@
 
 @media all and (max-width: 600px) {
 	.swirl {
+		position: relative;
 		width: 55%;
 		height: 55%;
 	}
@@ -48,13 +57,13 @@
 		animation: rotation 2s;
 		z-index: 2;
 	}
+	.solo-card {
+		margin-top: 10vh;
+	}
+}
 
-	@keyframes rotation {
-		from {
-			transform: rotate(0deg);
-		}
-		to {
-			transform: rotate(0deg);
-		}
+@media all and (max-width: 1030px) {
+	.swirl {
+		top: 37vh;
 	}
 }

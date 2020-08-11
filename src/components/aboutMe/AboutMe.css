@@ -99,4 +99,10 @@ h5:hover {
 		width: 100%;
 		margin-bottom: 30px;
 	}
+	.swirl {
+		left: 0;
+		top: 12vh;
+		width: 65%;
+		height: 65%;
+	}
 }

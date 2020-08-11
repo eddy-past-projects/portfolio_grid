@@ -46,12 +46,12 @@
 
 @media (max-width: 1030px) {
 	.homeLogo .swirl {
-		top: 32.5vh;
+		top: 39.5vh;
 	}
 }
 
 @media (max-width: 770px) {
 	.homeLogo .swirl {
-		top: 21vh;
+		top: 25.5vh;
 	}
 }

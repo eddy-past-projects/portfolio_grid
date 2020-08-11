@@ -20,9 +20,9 @@ const AboutMe = () => {
 				</h3>
 				<h1>(and around).</h1>
 				<h3>
-					I recently graduated from the immersive software engineering program at Flatiron School. I'm eager
-					to merge my newly acquired skills with the common thread of engaging the user with visually
-					interesting solutions.
+					I graduated from the immersive software engineering program at Flatiron School. I'm eager to merge
+					my newly acquired skills with the common thread of engaging the user with visually interesting
+					solutions.
 				</h3>
 				<br />
 
