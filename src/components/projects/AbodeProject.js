@@ -1,8 +1,5 @@
 import React from 'react';
 import abode from '../../assets/abode.jpg';
-import github_icon from '../../assets/icons/github_grey3.png';
-import video_icon from '../../assets/icons/video_grey3.png';
-import play_icon from '../../assets/icons/play_grey3.png';
 
 const AbodeProject = () => {
 	return (
@@ -17,7 +14,7 @@ const AbodeProject = () => {
 					<li>Admin can add, update, delete buildings and apartments based on availability.</li>
 					<li>Apartment seekers can view all available apartments.</li>
 					<li>Admin sign in: lola@gmail.com, pw: password</li>
-					<li>Built with Ruby on Rails, Postgres, Bootstrap and CSS</li>
+					<li>Built with Ruby on Rails, Postgres, Bootstrap and CSS.</li>
 				</ul>
 			</h3>
 			<div className="icons">

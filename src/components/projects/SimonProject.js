@@ -5,7 +5,7 @@ const SimonProject = () => {
 	return (
 		<div className="solo-card">
 			<a href="https://colorpicksimon.netlify.app">
-				<img src={simon2} className="project-solo" alt="game home page" />
+				<img src={simon2} className="project-solo" alt="simon game" />
 			</a>
 
 			<h3>

@@ -1,8 +1,5 @@
 import React from 'react';
 import kayaksWh from '../../assets/kayaksWh.jpg';
-import github_icon from '../../assets/icons/github_grey3.png';
-import video_icon from '../../assets/icons/video_grey3.png';
-import play_icon from '../../assets/icons/play_grey3.png';
 
 const KayakProject = () => {
 	return (
@@ -13,11 +10,11 @@ const KayakProject = () => {
 
 			<h3>
 				<strong>Come On Kayak</strong> is an app for kayakers to make comments on trips and create upcoming
-				trips
+				trips.
 				<ul>
-					<li>Persists data to a Rails database and provides a Rails API</li>
-					<li>Displays a React, Redux frontend with Semantic-ui-React</li>
-					<li>Fetches data from the Rails API using Javascript</li>
+					<li>Persists data to a Rails database and provides a Rails API.</li>
+					<li>Displays a React, Redux frontend with Semantic-ui-React.</li>
+					<li>Fetches data from the Rails API using Javascript.</li>
 				</ul>
 			</h3>
 			<div className="icons">

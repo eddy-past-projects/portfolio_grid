@@ -3,6 +3,12 @@
 	transition: ease-in-out;
 	animation: rotation 2s;
 	z-index: 2;
+	position: relative;
+}
+.swirl {
+	left: 12vw;
+	top: 25vh;
+	position: absolute;
 }
 
 @keyframes rotation {

@@ -5,11 +5,11 @@ const MatchGame = () => {
 	return (
 		<div className="solo-card match">
 			<a href="https://match-car-game.netlify.app/">
-				<img src={match_gamealt2} className="project-solo" alt="game home page" />
+				<img src={match_gamealt2} className="project-solo" alt="match game" />
 			</a>
 
 			<h3>
-				<strong>Match Game</strong> is variation of a childhood game.
+				<strong>Match Game</strong> is a memory game.
 				<ul>
 					<li>In order to win, you match color sequences a total of 10 times.</li>
 					<li>Sequences start with one color, and then one is added to each successful sequence.</li>
