@@ -1,6 +1,15 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Big Shoulders Text', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Ultra', serif; */
+
 h1 {
-	font-family: 'Esteban', serif;
-	font-size: 50px;
+	/* font-family: 'Esteban', serif; */
+	/* font-family: 'Courier Prime', monospace; */
+	font-family: 'Abril Fatface', cursive;
+	letter-spacing: 2px;
+
+	font-size: 40px;
 	line-height: .9;
 }
 

@@ -9,6 +9,7 @@
 	height: 100vh;
 	margin: 0;
 }
+
 .wrapper {
 	display: flex;
 	flex-flow: row wrap;
@@ -20,6 +21,12 @@
 	position: fixed;
 	justify-content: center;
 	align-items: center;
+}
+.home-wrapper {
+	margin-bottom: 10px;
+	height: 80vh;
+	width: 100vw;
+	position: fixed;
 }
 .aside.logo {
 	cursor: pointer;
