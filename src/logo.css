@@ -1,26 +1,9 @@
-/* .aside.logo.swirl {
-	transition: all 3s;
-	transition: ease-in-out;
-	animation: rotation 2s;
-	z-index: 2;
-	position: relative;
-	border-radius: 50%;
-} */
 .swirl {
 	left: 12vw;
 	top: 25vh;
 	position: absolute;
 	border-radius: 50%;
 }
-
-/* @keyframes rotation {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(-359deg);
-	}
-} */
 
 .swirl:hover {
 	-webkit-animation: spin 2s ease-in-out;
@@ -48,6 +31,12 @@
 		transform: rotate(-360deg);
 	}
 }
+
+/* ///////// media queries ///////// */
+
+@media (max-width: 1030px) {
+}
+
 @media all and (max-width: 600px) {
 	.swirl {
 		width: 55%;

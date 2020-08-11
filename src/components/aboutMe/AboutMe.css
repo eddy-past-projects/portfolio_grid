@@ -27,16 +27,11 @@ h5 {
 h5:hover {
 	color: grey;
 }
-/* .filler-box {
-	height: 80px;
-	background: transparent;
-} */
 
 .my-photo {
 	border-radius: 50%;
 	width: 150px;
 	height: 150px;
-	/* float: right; */
 	position: absolute;
 	top: -100px;
 	right: -100px;

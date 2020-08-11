@@ -18,16 +18,17 @@
 	margin-bottom: 10px;
 	height: 80vh;
 	width: 100vw;
+	margin-top: 15vh;
 	position: fixed;
 	justify-content: center;
 	align-items: center;
 }
-.home-wrapper {
+/* .home-wrapper {
 	margin-bottom: 10px;
 	height: 80vh;
 	width: 100vw;
 	position: fixed;
-}
+} */
 .aside.logo {
 	cursor: pointer;
 }
@@ -35,10 +36,14 @@ a {
 	text-decoration: none;
 }
 
+/* ///////// media queries ///////// */
+
+@media (max-width: 1030px) {
+}
 /* @media (min-width: 600px) and (max-width: 700px) { */
 @media (min-width: 600px) {
 	.wrapper {
-		margin-top: 10px;
+		/* margin-top: 10px; */
 	}
 	.aside {
 		flex: 1;

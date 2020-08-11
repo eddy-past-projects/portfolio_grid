@@ -11,11 +11,12 @@ const MatchGame = () => {
 			<h3>
 				<strong>Match Game</strong> is a memory game.
 				<ul>
-					<li>In order to win, you match color sequences a total of 10 times.</li>
-					<li>Sequences start with one color, and then one is added to each successful sequence.</li>
-					<li>Built with CSS, HTML and Javascript.</li>
+					<li>Click on one card, then another. If cars match, the cards stay revealed.</li>
+					<li>You can reset game at anytime by clicking the little car at bottom. Cards will be shuffled.</li>
+					<li>Built with CSS, HTML, Javascript and CSS Flexbox.</li>
 				</ul>
 			</h3>
+
 			<div className="icons">
 				<a href="https://match-car-game.netlify.app/">
 					<i class="fas fa-play-circle fa-2x" />

@@ -3,7 +3,7 @@
 	height: 120px;
 	border-radius: 50%;
 	position: absolute;
-	top: 17.5vh;
+	top: 19vh;
 	z-index: 2;
 	left: 0;
 	transition: all 2s;
@@ -39,5 +39,19 @@
 	}
 	to {
 		transform: rotate(360deg);
+	}
+}
+
+/* ///////// media queries ///////// */
+
+@media (max-width: 1030px) {
+	.homeLogo .swirl {
+		top: 32.5vh;
+	}
+}
+
+@media (max-width: 770px) {
+	.homeLogo .swirl {
+		top: 21vh;
 	}
 }

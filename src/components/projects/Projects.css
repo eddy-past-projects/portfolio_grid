@@ -51,9 +51,8 @@ img.project-card.pets:hover {
 }
 .icons {
 	display: flex;
-	margin-top: 20px;
 	justify-content: center;
-	height: 50px;
+	height: 40px;
 	align-items: center;
 }
 
