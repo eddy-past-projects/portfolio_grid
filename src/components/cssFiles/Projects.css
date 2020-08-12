@@ -119,6 +119,8 @@ ul {
 	.main {
 		width: 60vw;
 		margin-left: 38vw;
+		height: 70vh;
+		margin-top: 30vh;
 	}
 	#navbar {
 		margin-left: 0;
@@ -152,8 +154,8 @@ ul {
 @media all and (max-width: 600px) {
 	.main {
 		width: 100vw;
-		height: 80vh;
-		margin-top: 20vh;
+		height: 70vh;
+		margin-top: 30vh;
 		/* margin-top: 21vh; */
 		margin-left: 0;
 	}
