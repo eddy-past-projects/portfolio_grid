@@ -75,9 +75,14 @@ h2 {
 		padding: 0;
 		text-align: center;
 		height: fit-content;
-		margin-bottom: 15vh;
+		padding-top: 3vh;
+		/* margin-bottom: 15vh; */
+		/* margin-bottom: 15vh; */
+
 		background: white;
-		padding-bottom: 16vh;
+		/* padding-bottom: 16vh; */
+		padding-bottom: 6vh;
+
 		z-index: 1;
 	}
 }
