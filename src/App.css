@@ -19,13 +19,16 @@
 	max-height: 80vh;
 	width: 100vw;
 	margin-top: 15vh;
-	position: fixed;
 	justify-content: center;
 	align-items: center;
+	overflow-y: scroll;
+	position: relative;
+	height: 100vh;
 }
 
 .aside.logo {
 	cursor: pointer;
+	position: fixed;
 }
 a {
 	text-decoration: none;

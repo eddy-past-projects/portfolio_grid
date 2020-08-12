@@ -63,11 +63,11 @@ h2 {
 	#navbar {
 		margin-left: 0;
 		background: white;
-		padding-bottom: 50px;
+		padding-bottom: 30px;
 		margin: 0;
 		padding-top: 20px;
 		/* height: fit-content; */
-		height: 90px;
+		height: 70px;
 	}
 }
 @media all and (max-width: 600px) {
@@ -76,12 +76,12 @@ h2 {
 		padding: 0;
 		text-align: center;
 		height: 200px;
-		padding-top: 50px;
+		padding-top: 35px;
 		/* margin-bottom: 15vh; */
 		/* margin-bottom: 15vh; */
 		background: white;
 		/* padding-bottom: 16vh; */
-		padding-bottom: 50px;
+		padding-bottom: 35px;
 		z-index: 1;
 	}
 }
