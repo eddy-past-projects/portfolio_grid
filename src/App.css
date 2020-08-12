@@ -29,6 +29,8 @@
 .aside.logo {
 	cursor: pointer;
 	position: fixed;
+	top: 20vh;
+	left: 8vw;
 }
 a {
 	text-decoration: none;
