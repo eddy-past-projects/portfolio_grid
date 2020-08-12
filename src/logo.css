@@ -45,25 +45,16 @@
 @media (max-width: 1030px) {
 }
 
-@media all and (max-width: 600px) {
+@media (min-width: 900px) and (max-width: 1030px) {
 	.swirl {
-		position: relative;
-		width: 55%;
-		height: 55%;
+		top: 19vh;
 	}
-	.aside.logo.swirl {
-		transition: all 3s;
-		transition: ease-in-out;
-		animation: rotation 2s;
-		z-index: 2;
-	}
-	.solo-card {
-		margin-top: 10vh;
+}
+@media all and (max-width: 770px) {
+	.swirl {
+		top: 40vh;
 	}
 }
 
-@media all and (max-width: 1030px) {
-	.swirl {
-		top: 37vh;
-	}
+@media all and (max-width: 600px) {
 }
