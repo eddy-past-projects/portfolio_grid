@@ -93,7 +93,12 @@ a {
 		margin: 0;
 		margin-top: 21vh;
 	}
-
+	.aside.logo {
+		width: 100vw;
+		height: 10vh;
+		top: 200px;
+		z-index: 50;
+	}
 	/* .aside.logo {
 		/* position: fixed; */
 	/* z-index: 100;
@@ -108,7 +113,7 @@ a {
 		height: 80px;
 	}
 }
-@media all and (max-width: 375px) {
+/* @media all and (max-width: 375px) {
 	.aside.logo {
 		z-index: 100;
 		top: -23vh;
@@ -118,5 +123,5 @@ a {
 @media all and (max-width: 375px) and (max-height: 700px) {
 	.aside.logo {
 		top: -21vh;
-	}
-}
+	} */
+/* } */
