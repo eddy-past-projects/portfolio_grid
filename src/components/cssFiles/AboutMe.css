@@ -38,7 +38,7 @@ h5:hover {
 	height: 125px;
 	position: absolute;
 	top: -50px;
-	right: -75px;
+	right: -95px;
 }
 
 .text {
@@ -50,12 +50,13 @@ h5:hover {
 @media all and (max-width: 770px) {
 	.text {
 		margin: 0 20px;
-		margin-top: 2vh;
+		/* margin-top: 200px; */
+		margin-right: 40px;
 	}
 
 	.my-photo {
 		top: -140px;
-		right: -30px;
+		right: 0;
 	}
 	.image {
 		left: 45vw;

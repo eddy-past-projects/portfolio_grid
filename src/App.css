@@ -67,6 +67,11 @@ a {
 		order: 4;
 	}
 }
+@media all and (max-width: 770px) {
+	.main {
+		margin-top: 160px;
+	}
+}
 
 @media (min-width: 600px) {
 	.aside {
@@ -91,6 +96,7 @@ a {
 	.main {
 		width: 100vw;
 		margin: 0;
+		margin-top: 200px;
 		/* margin-top: 21vh; */
 	}
 

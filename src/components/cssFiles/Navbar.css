@@ -13,10 +13,8 @@ h2 {
 
 #navbar {
 	text-align: center;
-	/* margin-top: 20px; */
 	margin-left: 5%;
 	margin-right: 5%;
-	/* margin-bottom: 20px; */
 	height: 70px;
 	font-size: 120px;
 	width: 100%;
@@ -48,14 +46,6 @@ h2 {
 	flex-wrap: row wrap;
 }
 
-/* @media (min-width: 900px) and (max-width: 1030px) {
-	#navbar {
-		margin-top: 5vh;
-	}
-	.wrapper { */
-/* margin-top: 20vh; */
-/* }
-} */
 @media all and (max-width: 800px) {
 	#navbar {
 		justify-content: space-around;
@@ -69,8 +59,6 @@ h2 {
 		padding-bottom: 30px;
 		margin: 0;
 		padding-top: 20px;
-		/* height: fit-content; */
-		/* height: 100px; */
 	}
 }
 @media all and (max-width: 600px) {
@@ -78,24 +66,10 @@ h2 {
 		flex-flow: column wrap;
 		padding: 0;
 		text-align: center;
-		height: 180px;
+		height: 200px;
 		padding-top: 15px;
-		/* margin-bottom: 15vh; */
-		/* margin-bottom: 15vh; */
 		background: white;
-		/* padding-bottom: 16vh; */
 		padding-bottom: 35px;
 		z-index: 1;
 	}
 }
-/* @media all and (max-width: 375px) {
-	#navbar {
-		/* padding-bottom: 11vh; */
-/* }
-} */
-
-/* @media all and (max-width: 375px) and (max-height: 700px) {
-	#navbar {
-		padding-bottom: 12vh;
-	}
-}  */
