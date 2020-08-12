@@ -48,7 +48,7 @@ h2 {
 	flex-wrap: row wrap;
 }
 
-@media (min-width: 900px) and (max-width: 1030px) {
+/* @media (min-width: 900px) and (max-width: 1030px) {
 	#navbar {
 		margin-top: 5vh;
 	}
@@ -60,8 +60,8 @@ h2 {
 	#navbar {
 		justify-content: space-around;
 		/* margin: 20px; */
-	}
-}
+/* } */
+/* } */
 @media all and (max-width: 770px) {
 	#navbar {
 		margin-left: 0;
@@ -79,7 +79,7 @@ h2 {
 		padding: 0;
 		text-align: center;
 		height: 200px;
-		padding-top: 20px;
+		padding-top: 15px;
 		/* margin-bottom: 15vh; */
 		/* margin-bottom: 15vh; */
 		background: white;
