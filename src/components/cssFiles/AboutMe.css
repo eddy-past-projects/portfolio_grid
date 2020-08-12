@@ -55,7 +55,7 @@ h5:hover {
 	}
 
 	.my-photo {
-		top: -140px;
+		/* top: -140px; */
 		right: 0;
 	}
 	.image {
@@ -94,7 +94,7 @@ h5:hover {
 		width: 100%;
 		margin-bottom: 30px;
 		position: relative;
-		top: 2vh;
+		margin-top: 250px;
 	}
 }
 

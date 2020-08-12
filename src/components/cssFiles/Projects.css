@@ -94,6 +94,7 @@ ul {
 	.cards {
 		grid-template-columns: 1fr;
 		margin: 0 20px 0px 20px;
+		margin-top: 160px;
 		/* margin-top: 5vh; */
 	}
 	.icons {
