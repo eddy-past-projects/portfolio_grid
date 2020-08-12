@@ -78,7 +78,7 @@ h2 {
 		flex-flow: column wrap;
 		padding: 0;
 		text-align: center;
-		height: 200px;
+		height: 180px;
 		padding-top: 15px;
 		/* margin-bottom: 15vh; */
 		/* margin-bottom: 15vh; */
@@ -88,14 +88,14 @@ h2 {
 		z-index: 1;
 	}
 }
-@media all and (max-width: 375px) {
+/* @media all and (max-width: 375px) {
 	#navbar {
 		/* padding-bottom: 11vh; */
 	}
 }
 
-@media all and (max-width: 375px) and (max-height: 700px) {
+/* @media all and (max-width: 375px) and (max-height: 700px) {
 	#navbar {
 		padding-bottom: 12vh;
 	}
-}
+}  */
