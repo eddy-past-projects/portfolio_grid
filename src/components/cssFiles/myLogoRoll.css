@@ -40,27 +40,3 @@
 		transform: rotate(360deg);
 	}
 }
-
-/* ///////// media queries ///////// */
-
-/* @media (max-width: 1030px) {
-	.homeLogo .swirl {
-		top: 39.5vh;
-	}
-} */
-
-/* @media (max-width: 770px) {
-	.homeLogo .swirl {
-		top: 22.5vh;
-	}
-}
-@media all and (min-width: 900px) and (max-width: 1030px) {
-	.homeLogo .swirl {
-		top: 25.5vh;
-	}
-}
-@media all and (min-width: 900px) and (max-width: 1030px) {
-	.homeLogo .swirl {
-		top: 25.5vh;
-	}
-} */

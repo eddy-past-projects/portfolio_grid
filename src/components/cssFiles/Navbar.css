@@ -66,8 +66,8 @@ h2 {
 		flex-flow: column wrap;
 		padding: 0;
 		text-align: center;
-		height: 200px;
-		padding-top: 15px;
+		height: 210px;
+		padding-top: 10px;
 		background: white;
 		padding-bottom: 35px;
 		z-index: 1;
