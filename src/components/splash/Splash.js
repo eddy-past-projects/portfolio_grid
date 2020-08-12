@@ -1,7 +1,7 @@
 import React from 'react';
-import '../home/myLogoRoll.css';
+import '../cssFiles/myLogoRoll.css';
 import swirl_sm from '../../assets/swirl_sm.jpg';
-import '../home/Home.css';
+import '../cssFiles/Home.css';
 
 const Splash = () => {
 	return (

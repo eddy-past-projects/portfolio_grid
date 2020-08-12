@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
-import './logo.css';
+import './components/cssFiles/logo.css';
 import Navbar from './components/navbar/Navbar';
 import swirl_sm from './assets/swirl_sm.jpg';
 import KayakProject from './components/projects/KayakProject';

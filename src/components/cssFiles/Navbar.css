@@ -63,9 +63,9 @@ h2 {
 	#navbar {
 		margin-left: 0;
 		background: white;
-		padding-bottom: 7.5vh;
+		padding-bottom: 50px;
 		margin: 0;
-		padding-top: 5vh;
+		padding-top: 50px;
 		height: fit-content;
 	}
 }
@@ -75,20 +75,18 @@ h2 {
 		padding: 0;
 		text-align: center;
 		height: fit-content;
-		padding-top: 3vh;
+		padding-top: 50px;
 		/* margin-bottom: 15vh; */
 		/* margin-bottom: 15vh; */
-
 		background: white;
 		/* padding-bottom: 16vh; */
 		padding-bottom: 6vh;
-
 		z-index: 1;
 	}
 }
 @media all and (max-width: 375px) {
 	#navbar {
-		padding-bottom: 11vh;
+		/* padding-bottom: 11vh; */
 	}
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import linkedin2 from '../../assets/linkedin2.jpg';
 import ceddy_resume from '../../assets/ceddy_resume.pdf';
-import './AboutMe.css';
+import '../cssFiles/AboutMe.css';
 
 const AboutMe = () => {
 	return (

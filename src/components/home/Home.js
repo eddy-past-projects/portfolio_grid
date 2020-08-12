@@ -1,7 +1,7 @@
 import React from 'react';
-import './Home.css';
+import '../cssFiles/Home.css';
 import Projects from '../projects/Projects';
-import '../projects/Projects.css';
+import '../cssFiles/Projects.css';
 
 const Home = () => {
 	return (

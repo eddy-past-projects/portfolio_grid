@@ -6,7 +6,7 @@ import abode from '../../assets/abode.jpg';
 import simon2 from '../../assets/simon2.jpg';
 import match_gamealt2 from '../../assets/match_gamealt2.jpg';
 
-import './Projects.css';
+import '../cssFiles/Projects.css';
 
 class Projects extends React.Component {
 	render() {
