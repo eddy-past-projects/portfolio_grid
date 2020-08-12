@@ -1,3 +1,7 @@
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
 .project-card {
 	text-align: left;
 	letter-spacing: 1px;
@@ -25,19 +29,8 @@ img.project-solo {
 	margin-bottom: 20px;
 }
 
-/* .main {
-	width: 100%;
-	max-width: 1240px;
-	margin: 0 auto;
-} */
-.cards {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
 img.project-card {
 	width: 90%;
-	height: inherit;
 }
 
 img.project-card:hover,

@@ -41,25 +41,3 @@
 		transform: rotate(360deg);
 	}
 }
-
-/* ///////// media queries ///////// */
-
-@media (max-width: 1030px) {
-	.homeLogo .swirl {
-		top: 32.5vh;
-	}
-}
-
-@media (max-width: 770px) {
-	.homeLogo .swirl {
-		top: 21vh;
-	}
-}
-@media (max-width: 600px) {
-	.swirl {
-		width: 45%;
-	}
-	.homeLogo .swirl {
-		top: 10vh;
-	}
-}
