@@ -112,14 +112,14 @@ ul {
 		height: 100vh;
 	}
 	.wrapper {
-		/* overflow-y: scroll; */
+		overflow-y: scroll;
 		position: relative;
 		height: 100vh;
 	}
 	.main {
 		width: 60vw;
 		margin-left: 38vw;
-		height: 70vh;
+		height: 80vh;
 		/* margin-top: 30vh; */
 	}
 	#navbar {

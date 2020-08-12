@@ -65,9 +65,9 @@ h2 {
 		background: white;
 		padding-bottom: 50px;
 		margin: 0;
-		padding-top: 50px;
+		padding-top: 20px;
 		/* height: fit-content; */
-		height: 120px;
+		height: 200px;
 	}
 }
 @media all and (max-width: 600px) {
@@ -75,7 +75,7 @@ h2 {
 		flex-flow: column wrap;
 		padding: 0;
 		text-align: center;
-		height: 100px;
+		height: 150px;
 		padding-top: 50px;
 		/* margin-bottom: 15vh; */
 		/* margin-bottom: 15vh; */
