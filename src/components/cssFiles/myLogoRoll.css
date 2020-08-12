@@ -1,13 +1,12 @@
 .homeLogo .swirl {
-	width: 120px;
-	height: 120px;
+	width: 100px;
+	height: 100px;
 	border-radius: 50%;
 	position: absolute;
-	top: 19vh;
 	z-index: 2;
 	left: 0;
-	transition: all 2s;
-	animation: move-left 4.5s ease-in infinite, spin 1.5s linear infinite;
+	transition: all 3s;
+	animation: move-left 4.25s ease-in infinite, spin 1.5s linear infinite;
 	/* animation-direction: alternate; */
 }
 
@@ -22,14 +21,14 @@
 
 @keyframes move-left {
 	0% {
-		left: -50%;
+		left: -120vw;
 	}
 
 	50% {
-		left: 120vw;
+		left: 150vw;
 	}
 	100% {
-		left: -50%;
+		left: -150vw;
 	}
 }
 
@@ -50,7 +49,7 @@
 	}
 } */
 
-@media (max-width: 770px) {
+/* @media (max-width: 770px) {
 	.homeLogo .swirl {
 		top: 22.5vh;
 	}
@@ -64,4 +63,4 @@
 	.homeLogo .swirl {
 		top: 25.5vh;
 	}
-}
+} */

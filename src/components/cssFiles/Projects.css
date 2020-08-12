@@ -36,17 +36,17 @@ img.project-solo {
 	margin: 0 auto; */
 /* } */
 
-.wrapper {
+/* .wrapper {
 	overflow-y: scroll;
 	position: relative;
-	height: 100vh;
-}
-.main {
+	/* height: 100vh; */
+/* } */
+/* .main {
 	width: 60vw;
 	margin-left: 38vw;
 	height: 80vh;
 	/* margin-top: 30vh; */
-}
+/* } */
 .cards {
 	display: grid;
 	grid-template-columns: 1fr 1fr;

@@ -8,7 +8,7 @@
 
 .solo-card {
 	width: 40rem;
-	height: inherit;
+	height: fit-content;
 	background-color: #f7f7f2;
 	padding: 1.5rem;
 }
@@ -17,7 +17,6 @@ img.project-solo {
 	text-align: left;
 	letter-spacing: 1px;
 	width: 100%;
-	height: inherit;
 	float: left;
 	vertical-align: top;
 	margin-bottom: 1rem;
@@ -26,11 +25,11 @@ img.project-solo {
 	margin-bottom: 20px;
 }
 
-.main {
+/* .main {
 	width: 100%;
 	max-width: 1240px;
 	margin: 0 auto;
-}
+} */
 .cards {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
