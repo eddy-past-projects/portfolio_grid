@@ -12,7 +12,9 @@ h1 {
 	font-size: 40px;
 	line-height: .9;
 }
-
+footer a {
+	margin: 0;
+}
 h5 {
 	margin-top: 2rem;
 	font-family: 'Work Sans', sans-serif;
@@ -23,6 +25,7 @@ h5 {
 	display: inline;
 	color: black;
 	text-align: left;
+	line-height: 2.5;
 }
 
 h5:hover {

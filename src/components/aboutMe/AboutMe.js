@@ -27,16 +27,16 @@ const AboutMe = () => {
 				<br />
 				<footer>
 					<a href={ceddy_resume}>
-						<h5>click here to view my resume </h5>
+						<h5>click here to view my resume | </h5>
 					</a>
 					<a href="https://www.linkedin.com/in/cynthiaeddy">
-						<h5>| linkedin profile </h5>
+						<h5>linkedin profile | </h5>
 					</a>
 					<a href="http://www.cynthiaeddy.com">
-						<h5>| print and digital portfolio </h5>
+						<h5>print and digital portfolio | </h5>
 					</a>
 					<a href="mailto:cynthiaeddynyc@gmail.com">
-						<h5>| email </h5>
+						<h5>email</h5>
 					</a>
 				</footer>
 			</div>
