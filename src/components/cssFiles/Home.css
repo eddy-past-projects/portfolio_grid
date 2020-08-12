@@ -6,25 +6,5 @@
 	z-index: 12;
 	top: 0;
 	left: 0;
-	margin-top: 190px;
-
 	border: none;
 }
-/*
-@media (max-width: 1025px) {
-	.home-image {
-		margin-top: 35px;
-	}
-}
-
-@media (max-width: 800px) {
-	.home-image {
-		margin-top: 180px;
-	}
-}
-
-@media (max-width: 500px) {
-	.home-image {
-		margin-top: -80px;
-	}
-} */
