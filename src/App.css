@@ -104,10 +104,8 @@ a {
 		width: 100vw;
 		z-index: 50;
 		background: white;
+		top: 100px;
 		height: 100px;
-		top: 150px;
-		height: 75px;
-		top: 160px;
 	}
 	/* .aside.logo {
 		/* position: fixed; */
@@ -121,6 +119,7 @@ a {
 	.swirl {
 		width: 80px;
 		height: 80px;
+		top: 0;
 	}
 	/* } */
 	/* @media all and (max-width: 375px) {

@@ -94,7 +94,7 @@ ul {
 	.cards {
 		grid-template-columns: 1fr;
 		margin: 0 20px 0px 20px;
-		margin-top: 160px;
+		margin-top: 20px;
 		/* margin-top: 5vh; */
 	}
 	.icons {
@@ -109,6 +109,7 @@ ul {
 		position: fixed;
 		margin-right: 1vw;
 		top: 15vh;
+		height: fit-content;
 	}
 	img.project-card {
 		width: 100%;

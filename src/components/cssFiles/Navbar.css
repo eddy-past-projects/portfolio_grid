@@ -68,6 +68,7 @@ h2 {
 		text-align: center;
 		/* height: 210px; */
 		background: white;
+		padding-top: 20px;
 		padding-bottom: 35px;
 		z-index: 1;
 	}
