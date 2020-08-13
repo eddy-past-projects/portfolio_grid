@@ -94,8 +94,6 @@ ul {
 	.cards {
 		grid-template-columns: 1fr;
 		margin: 0 20px 0px 20px;
-		margin-top: 20px;
-		/* margin-top: 5vh; */
 	}
 	.icons {
 		margin: 0 10px;
@@ -116,9 +114,9 @@ ul {
 		height: inherit;
 		margin-top: 20px;
 	}
-	img.project-card.abode {
+	/* img.project-card.abode {
 		margin-bottom: 20px;
-	}
+	} */
 }
 
 @media all and (max-width: 600px) {

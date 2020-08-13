@@ -49,18 +49,17 @@ h5:hover {
 
 @media all and (max-width: 770px) {
 	.text {
-		margin: 0 20px;
-		/* margin-top: 200px; */
-		margin-right: 40px;
-		margin-top: 100px;
+		margin: 0 40px 0 20px;
 	}
 
 	.my-photo {
-		/* top: -140px; */
+		margin-top: 40px;
+		margin-left: 260px;
 		right: 0;
 	}
 	.image {
 		left: 45vw;
+		height: 100px;
 	}
 }
 
