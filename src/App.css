@@ -108,6 +108,7 @@ a {
 		background: white;
 		top: 100px;
 		height: 110px;
+		position: fixed;
 	}
 
 	.swirl {
