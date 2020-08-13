@@ -122,10 +122,10 @@ ul {
 
 @media all and (max-width: 600px) {
 	.solo-card {
-		width: 100%;
+		width: 90%;
 		position: relative;
-		margin-top: -10vh;
 		text-align: left;
+		margin: auto;
 	}
 	img.project-card {
 		width: 100%;
