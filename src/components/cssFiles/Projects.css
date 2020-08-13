@@ -15,6 +15,9 @@
 	margin-top: 40px;
 	position: fixed;
 }
+.inner-card {
+	position: relative;
+}
 
 img.project-solo {
 	text-align: left;
@@ -26,6 +29,7 @@ img.project-solo {
 	cursor: pointer;
 	margin-top: -20px;
 	margin-bottom: 20px;
+	/* position: relative; */
 }
 
 .cards {
@@ -51,6 +55,7 @@ img.project-card.pets:hover {
 	justify-content: center;
 	/* height: 40px; */
 	align-items: center;
+	/* position: relative; */
 }
 a .icons {
 	margin: 0 10px;

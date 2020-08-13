@@ -4,27 +4,31 @@ import match_gamealt2 from '../../assets/match_gamealt2.jpg';
 const MatchGame = () => {
 	return (
 		<div className="solo-card match">
-			<a href="https://match-car-game.netlify.app/">
-				<img src={match_gamealt2} className="project-solo" alt="match game" />
-			</a>
-
-			<h3>
-				<strong>Match Game</strong> is a memory game.
-				<ul>
-					<li>Click on one card, then another. If cars match, the cards stay revealed.</li>
-					<li>You can reset game at anytime by clicking the little car at bottom. Cards will be shuffled.</li>
-					<li>Built with CSS, HTML, Javascript and CSS Flexbox.</li>
-				</ul>
-			</h3>
-
-			<div className="icons">
+			<div className="inner-card">
 				<a href="https://match-car-game.netlify.app/">
-					<i className="fas fa-play-circle fa-2x" />
+					<img src={match_gamealt2} className="project-solo" alt="match game" />
 				</a>
 
-				<a href="https://github.com/zoey7117/match-game">
-					<i className="fab fa-github fa-2x" />
-				</a>
+				<h3>
+					<strong>Match Game</strong> is a memory game.
+					<ul>
+						<li>Click on one card, then another. If cars match, the cards stay revealed.</li>
+						<li>
+							You can reset game at anytime by clicking the little car at bottom. Cards will be shuffled.
+						</li>
+						<li>Built with CSS, HTML, Javascript and CSS Flexbox.</li>
+					</ul>
+				</h3>
+
+				<div className="icons">
+					<a href="https://match-car-game.netlify.app/">
+						<i className="fas fa-play-circle fa-2x" />
+					</a>
+
+					<a href="https://github.com/zoey7117/match-game">
+						<i className="fab fa-github fa-2x" />
+					</a>
+				</div>
 			</div>
 		</div>
 	);
