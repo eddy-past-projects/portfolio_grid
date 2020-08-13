@@ -111,7 +111,7 @@ ul {
 	}
 	img.project-card {
 		width: 100%;
-		height: inherit;
+		height: fit-content;
 		margin-top: 20px;
 	}
 	/* img.project-card.abode {
