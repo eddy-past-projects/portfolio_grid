@@ -60,3 +60,26 @@
 		}
 	}
 }
+
+@media all and (max-width: 600px) {
+	.homeLogo .swirl {
+		width: 80px;
+		height: 80px;
+		top: 100px;
+		transition: all 2s;
+		animation: move-left 4.8s ease-in infinite, spin 1.5s linear infinite;
+	}
+
+	@keyframes move-left {
+		0% {
+			left: -150vw;
+		}
+
+		50% {
+			left: 60vw;
+		}
+		100% {
+			left: -180vw;
+		}
+	}
+}

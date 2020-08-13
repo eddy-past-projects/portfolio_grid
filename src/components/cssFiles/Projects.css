@@ -112,7 +112,7 @@ ul {
 	}
 	img.project-card {
 		width: 100%;
-		height: fit-content;
+		height: inherit;
 		margin-top: 20px;
 	}
 	/* img.project-card.abode {
