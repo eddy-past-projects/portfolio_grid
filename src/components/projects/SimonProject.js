@@ -22,11 +22,11 @@ const SimonProject = () => {
 			</h3>
 			<div className="icons">
 				<a href="https://colorpicksimon.netlify.app">
-					<i class="fas fa-play-circle fa-2x" />
+					<i className="fas fa-play-circle fa-2x" />
 				</a>
 
 				<a href="https://github.com/zoey7117/color-pick2">
-					<i class="fab fa-github fa-2x" />
+					<i className="fab fa-github fa-2x" />
 				</a>
 			</div>
 		</div>

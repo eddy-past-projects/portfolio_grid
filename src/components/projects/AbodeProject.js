@@ -19,15 +19,15 @@ const AbodeProject = () => {
 			</h3>
 			<div className="icons">
 				<a href="https://abodehaven.herokuapp.com">
-					<i class="fas fa-play-circle fa-2x" />
+					<i className="fas fa-play-circle fa-2x" />
 				</a>
 
 				<a href="https://youtu.be/tDIepDugwbc">
-					<i class="fas fa-video fa-2x" />
+					<i className="fas fa-video fa-2x" />
 				</a>
 
 				<a href="https://github.com/zoey7117/abode-haven/tree/heroku_work">
-					<i class="fab fa-github fa-2x" />
+					<i className="fab fa-github fa-2x" />
 				</a>
 			</div>
 		</div>

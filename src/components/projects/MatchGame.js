@@ -19,11 +19,11 @@ const MatchGame = () => {
 
 			<div className="icons">
 				<a href="https://match-car-game.netlify.app/">
-					<i class="fas fa-play-circle fa-2x" />
+					<i className="fas fa-play-circle fa-2x" />
 				</a>
 
 				<a href="https://github.com/zoey7117/match-game">
-					<i class="fab fa-github fa-2x" />
+					<i className="fab fa-github fa-2x" />
 				</a>
 			</div>
 		</div>

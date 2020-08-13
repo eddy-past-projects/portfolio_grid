@@ -19,18 +19,18 @@ const KayakProject = () => {
 			</h3>
 			<div className="icons">
 				<a href="https://kayaking-client.herokuapp.com">
-					<i class="fas fa-play-circle fa-2x" />
+					<i className="fas fa-play-circle fa-2x" />
 				</a>
 
 				<a href="https://youtu.be/9nf-APieUaM">
-					<i class="fas fa-video fa-2x" />
+					<i className="fas fa-video fa-2x" />
 				</a>
 				<a href="https://github.com/zoey7117/kayaking_frontend">
-					<i class="fab fa-github fa-2x" />
+					<i className="fab fa-github fa-2x" />
 				</a>
 
 				<a href="https://github.com/zoey7117/kayaking-backend">
-					<i class="fab fa-github fa-2x" />
+					<i className="fab fa-github fa-2x" />
 				</a>
 			</div>
 		</div>

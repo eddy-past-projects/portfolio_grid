@@ -3,7 +3,7 @@
 }
 
 body {
-	overscroll-behavior: none;
+	overscroll-behavior: nonegit s;
 }
 
 .App {
@@ -38,7 +38,7 @@ body {
 .main {
 	width: 60vw;
 	margin-left: 38vw;
-	height: 100vh;
+	height: 80vh;
 	overflow-y: scroll;
 	position: relative;
 	overflow: auto;
@@ -99,6 +99,7 @@ a {
 	.main {
 		width: 100vw;
 		margin: 0;
+		height: 100vh;
 	}
 
 	.aside.logo {

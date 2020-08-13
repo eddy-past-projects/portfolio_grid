@@ -13,6 +13,7 @@
 	background-color: #f7f7f2;
 	padding: 1.5rem;
 	margin-top: 40px;
+	position: fixed;
 }
 
 img.project-solo {
@@ -105,7 +106,6 @@ ul {
 	.solo-card {
 		width: 59.5%;
 		background-color: #f7f7f2;
-		position: fixed;
 		margin-right: 1vw;
 		top: 15vh;
 		height: fit-content;

@@ -24,15 +24,15 @@ const PetsProject = () => {
 
 			<div className="icons">
 				<a href="https://pets-frontend.netlify.app">
-					<i class="fas fa-play-circle fa-2x" />
+					<i className="fas fa-play-circle fa-2x" />
 				</a>
 
 				<a href="https://github.com/zoey7117/petstoo_frontend">
-					<i class="fab fa-github fa-2x" />
+					<i className="fab fa-github fa-2x" />
 				</a>
 
 				<a href="https://github.com/zoey7117/petstoo_backend">
-					<i class="fab fa-github fa-2x" />
+					<i className="fab fa-github fa-2x" />
 				</a>
 			</div>
 		</div>
