@@ -42,7 +42,7 @@ h5:hover {
 }
 
 .text {
-	position: fixed;
+	position: absolute;
 	margin-top: 7.5vh;
 	margin-right: 40vh;
 }
