@@ -92,15 +92,9 @@ a {
 }
 
 @media all and (max-width: 600px) {
-	/* .wrapper {
-		margin-top: 30px;
-		margin-bottom: 10%;
-	} */
 	.main {
 		width: 100vw;
 		margin: 0;
-		/* margin-top: 210px; */
-		/* margin-top: 21vh; */
 	}
 
 	.aside.logo {
@@ -108,32 +102,12 @@ a {
 		z-index: 50;
 		background: white;
 		top: 100px;
-		height: 100px;
+		height: 110px;
 	}
-	/* .aside.logo {
-		/* position: fixed; */
-	/* z-index: 100;
-		top: -26vh;
-		left: 28vw;
-		background: white;
-		height: 20vh; */
-	/* } */
 
 	.swirl {
 		width: 80px;
 		height: 80px;
 		top: 0;
 	}
-	/* } */
-	/* @media all and (max-width: 375px) {
-	.aside.logo {
-		z-index: 100;
-		top: -23vh;
-		left: 29vw;
-	/* } */
 }
-/* @media all and (max-width: 375px) and (max-height: 700px) {
-	.aside.logo {
-		top: -21vh;
-	}  */
-/* } */
