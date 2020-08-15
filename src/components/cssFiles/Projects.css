@@ -89,6 +89,10 @@ h3 {
 	line-height: 1.5;
 	margin-bottom: 0px;
 }
+
+h6 {
+	font-family: 'Abril Fatface', cursive;
+}
 strong {
 	font-weight: 600;
 }

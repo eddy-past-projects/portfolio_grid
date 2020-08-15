@@ -1,4 +1,4 @@
-.homeLogo .swirl {
+/* .homeLogo .swirl {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -7,28 +7,107 @@
 	left: 0;
 	transition: all 2s;
 	animation: move-left 5s ease-in infinite, spin 1.5s linear infinite;
-	/* animation-direction: alternate; */
+/* } \ */
+
+.homeLogo .swirl {
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+
+	/* transition: all 2s;
+	animation: move-left 4.8s ease-in infinite, spin 1.5s linear infinite; */
+
+	/* Animation to spin and move the sphere */
+	-webkit-animation: spin 900ms linear infinite, moveLeftToRight 4.8s linear infinite;
+	-moz-animation: spin 900ms linear infinite, moveLeftToRight 4.8s linear infinite;
+	-ms-animation: spin 900ms linear infinite, moveLeftToRight 4.8s linear infinite;
+	animation: spin 900ms linear infinite, moveLeftToRight 4.8s linear infinite;
+
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
 }
 
-@keyframes roll {
+/* .animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+} */
+/* Spinning the sphere using key frames */
+@-ms-keyframes spin {
 	from {
-		transform: translateY(4.5vh);
+		-ms-transform: rotate(0deg);
 	}
 	to {
-		transform: translate(1000px, 4.5vh) rotate(359deg);
+		-ms-transform: rotate(360deg);
+	}
+}
+@-moz-keyframes spin {
+	from {
+		-moz-transform: rotate(0deg);
+	}
+	to {
+		-moz-transform: rotate(360deg);
+	}
+}
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes spin {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
 	}
 }
 
-@keyframes move-left {
+/* Move sphere from left to right */
+@-moz-keyframes moveLeftToRight {
 	0% {
 		left: -120vw;
 	}
-
 	50% {
-		left: 95vw;
+		left: 100vw;
 	}
 	100% {
-		left: -150vw;
+		left: -120vw;
+	}
+}
+@-ms-keyframes moveLeftToRight {
+	0% {
+		left: -120vw;
+	}
+	50% {
+		left: 100vw;
+	}
+	100% {
+		left: -120vw;
+	}
+}
+@keyframes moveLeftToRight {
+	0% {
+		left: -120vw;
+	}
+	50% {
+		left: 100vw;
+	}
+	100% {
+		left: -120vw;
+	}
+}
+@-webkit-keyframes moveLeftToRight {
+	0% {
+		left: -120vw;
+	}
+	50% {
+		left: 100vw;
+	}
+	100% {
+		left: -120vw;
 	}
 }
 
