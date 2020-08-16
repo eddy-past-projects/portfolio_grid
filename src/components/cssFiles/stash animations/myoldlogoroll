@@ -8,8 +8,51 @@
 	transition: all 2s;
 	animation: move-left 5s ease-in infinite, spin 1.5s linear infinite;
 /* } \ */
-
 .homeLogo .swirl {
+	position: absolute;
+	/* width: 120px;
+	height: 120px;
+	background-color: white;
+	margin-top: 180px; */
+	animation: move-left 3s infinite, rotate-right 3s infinite, spin 1.5s infinite;
+	animation-direction: alternate;
+
+	/* animation-iteration-count: 2; */
+	animation-fill-mode: forwards;
+	align-items: flex-end;
+	display: flex;
+}
+
+@keyframes move-left {
+	0% {
+		left: -110vw;
+	}
+
+	100% {
+		left: 100vw;
+	}
+}
+
+@keyframes rotate-right {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	100% {
+		-webkit-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+	}
+}
+
+/* .homeLogo .swirl {
 	display: block;
 	position: absolute;
 	border-radius: 50%;
@@ -17,17 +60,15 @@
 	/* transition: all 2s;
 	animation: move-left 4.8s ease-in infinite, spin 1.5s linear infinite; */
 
-	/* Animation to spin and move the sphere */
-	/* -webkit-animation: spin 900ms linear infinite, moveLeftToRight 4.8s linear infinite;
+/* Animation to spin and move the sphere */
+/* -webkit-animation: spin 900ms linear infinite, moveLeftToRight 4.8s linear infinite;
 	-moz-animation: spin 900ms linear infinite, moveLeftToRight 4.8s linear infinite;
-	-ms-animation: spin 900ms linear infinite, moveLeftToRight 4.8s linear infinite; */
+	-ms-animation: spin 900ms linear infinite, moveLeftToRight 4.8s linear infinite;
 	animation: spin 900ms linear infinite, moveLeftToRight 4.8s linear infinite;
 
-	-webkit-transition: all 1s ease-in-out;
-	transition: all 1s ease-in-out;
-	/* x-transition: all 1s ease-in-out;
-  animation: ani 1.7s infinite; */
-}
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease; */
+/* }  */
 
 /* .animated {
 	-webkit-animation-duration: 1s;
@@ -68,33 +109,9 @@
 }
 
 /* Move sphere from left to right */
-/* @-moz-keyframes moveLeftToRight {
+@-moz-keyframes moveLeftToRight {
 	0% {
-		left: -135%;
-	}
-
-	50% {
-		left: 170%;
-	}
-	100% {
-		left: -135%;
-	}
-}
-@-ms-keyframes moveLeftToRight {
-	0% {
-		left: -135%;
-	}
-
-	50% {
-		left: 170%;
-	}
-	100% {
-		left: -135%;
-	}
-} */
-@keyframes moveLeftToRight {
-	0% {
-		left: -120%;
+		left: -120vw;
 	}
 	50% {
 		left: 100vw;
@@ -102,22 +119,40 @@
 	100% {
 		left: -120vw;
 	}
-	/* 100% {
-		left: 100%;
-	} */
 }
-/* @-webkit-keyframes moveLeftToRight {
+@-ms-keyframes moveLeftToRight {
 	0% {
-		left: -135%;
+		left: -120vw;
 	}
-
 	50% {
-		left: 170%;
+		left: 100vw;
 	}
 	100% {
-		left: -135%;
+		left: -120vw;
 	}
-} */
+}
+@keyframes moveLeftToRight {
+	0% {
+		left: -120vw;
+	}
+	50% {
+		left: 100vw;
+	}
+	100% {
+		left: -120vw;
+	}
+}
+@-webkit-keyframes moveLeftToRight {
+	0% {
+		left: -120vw;
+	}
+	50% {
+		left: 100vw;
+	}
+	100% {
+		left: -120vw;
+	}
+}
 
 @keyframes spin {
 	from {

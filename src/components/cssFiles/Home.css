@@ -8,3 +8,17 @@
 	left: 0;
 	border: none;
 }
+.home-image .aside.logo {
+	width: 100vw;
+}
+
+.home-image .wrapper {
+	text-align: left;
+
+	/* justify-content: left; */
+	/* align-items: left; */
+}
+
+.home-image .homeLogo {
+	left: 0;
+}

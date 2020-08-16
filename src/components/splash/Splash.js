@@ -7,9 +7,11 @@ const Splash = () => {
 	return (
 		<div>
 			<div className="home-image">
-				<div className="homeLogo swirl_sm">
-					<img src={swirl_sm} className="swirl" alt="logo" />
-				</div>
+				<aside className="aside logo">
+					<div className="homeLogo swirl_sm">
+						<img src={swirl_sm} className="swirl" alt="logo" />
+					</div>
+				</aside>
 			</div>
 		</div>
 	);
