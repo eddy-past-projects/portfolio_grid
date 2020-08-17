@@ -9,8 +9,8 @@
 	-ms-animation: spin 900ms linear infinite, moveLeftToRight 4.8s linear infinite;
 	animation: spin 900ms linear infinite, moveLeftToRight 4.8s linear infinite;
 
-	-webkit-transition: all 1.5s ease-in;
-	transition: all 1.5s ease-in;
+	-webkit-transition: all 2.5s;
+	transition: all 2.5s;
 }
 
 /* Spinning the sphere using key frames */
