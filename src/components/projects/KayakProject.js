@@ -5,7 +5,7 @@ const KayakProject = () => {
 	return (
 		<div className="solo-card">
 			<div className="inner-card">
-				<a href="https://kayaking-client.herokuapp.com/">
+				<a href="https://come-on-kayak.netlify.app">
 					<img src={kayaksWh} className="project-solo" alt="kayak" />{' '}
 				</a>
 
@@ -19,7 +19,7 @@ const KayakProject = () => {
 					</ul>
 				</h3>
 				<div className="icons">
-					<a href="https://kayaking-client.herokuapp.com">
+					<a href="https://come-on-kayak.netlify.app">
 						<i className="fas fa-play-circle fa-2x" />
 					</a>
 

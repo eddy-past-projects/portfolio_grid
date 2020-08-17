@@ -5,7 +5,7 @@ const PetsProject = () => {
 	return (
 		<div className="solo-card">
 			<div className="inner-card">
-				<a href="https://pets-frontend.netlify.app/">
+				<a href="https://adopt-a-pet.netlify.app">
 					<img src={pets} className="project-solo" alt="pets" />
 				</a>
 
@@ -23,7 +23,7 @@ const PetsProject = () => {
 				</h3>
 
 				<div className="icons">
-					<a href="https://pets-frontend.netlify.app">
+					<a href="https://adopt-a-pet.netlify.app">
 						<i className="fas fa-play-circle fa-2x" />
 					</a>
 
