@@ -10,8 +10,8 @@ const PetsProject = () => {
 				</a>
 
 				<h3>
-					<h6>Adopt A Pet</h6> is an app for adopting/maintaining a virtual pet without the upkeep of a live
-					one.
+					<strong>Adopt A Pet</strong> is an app for adopting/maintaining a virtual pet without the upkeep of
+					a live one.
 					<ul>
 						<li>Persists each user to a Postgres database.</li>
 
