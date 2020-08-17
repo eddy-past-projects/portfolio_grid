@@ -14,7 +14,6 @@ const PetsProject = () => {
 					a live one.
 					<ul>
 						<li>Persists each user to a Postgres database.</li>
-
 						<li>
 							Rebuilt from a Single Page Application with Javascript to React frontend and a Rails API
 							with JWT authorization.
