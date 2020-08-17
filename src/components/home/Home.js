@@ -6,7 +6,7 @@ import '../cssFiles/Projects.css';
 const Home = () => {
 	return (
 		<div>
-			<Projects />
+			<a href="https://cynthia-eddy.netlify.app/">Please click to view my portfolio</a>
 		</div>
 	);
 };

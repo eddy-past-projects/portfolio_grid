@@ -1,13 +1,24 @@
-.home-image {
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 100vh;
-	width: 100vh;
-	background-color: white;
-	position: fixed;
-	z-index: 110;
-	top: 0;
-	left: 0;
-	border: none;
-}
-.home-image .aside.logo {
 	width: 100vw;
+}
+
+a {
+	margin-top: 2rem;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline;
+	color: black;
+	text-align: left;
+	line-height: 2.5;
+	text-decoration: none;
+}
+a:hover {
+	color: grey;
 }
