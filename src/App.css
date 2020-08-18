@@ -94,19 +94,57 @@ a {
 		text-align: left;
 	}
 }
-
+/*
 @media all and (max-width: 600px) {
 	.container {
 		display: flex;
-		position: fixed;
-	}
+		/* position: relative; */
+/* }
 	.main {
 		width: 100vw;
 		margin: 0;
 		position: relative;
+		top: 100px; */
+/* top: 210px; */
+/* height: 72vh; */
+/* height: 83vh; */
+/* }  */
+
+/* .aside.logo {
+		width: 100vw;
+		z-index: 20;
+		background: white;
+		/* top: 110px; */
+/* height: 110px;
+		position: fixed; */
+/* }  */
+
+/* .swirl {
+		width: 80px;
+		height: 80px;
+		top: 0;
+	/* } */
+/* .wrapper { */
+/* position: fixed; */
+/* margin-top: 100px; */
+/* display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		align-content: center; */
+/* height: 90vh; */
+/* } */
+/* } */
+
+@media all and (max-width: 600px) {
+	.container {
+		display: flex;
+	}
+	.main {
+		width: 100vw;
+		margin: 0;
+		position: absolute;
 		top: 100px;
-		/* top: 210px; */
-		/* height: 72vh; */
+		height: 72vh;
 		/* height: 83vh; */
 	}
 
@@ -114,9 +152,9 @@ a {
 		width: 100vw;
 		z-index: 20;
 		background: white;
-		top: 110px;
+		top: 100px;
 		height: 110px;
-		/* position: fixed; */
+		position: fixed;
 	}
 
 	.swirl {
@@ -125,12 +163,10 @@ a {
 		top: 0;
 	}
 	.wrapper {
-		position: fixed;
 		/* margin-top: 100px; */
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		align-content: center;
-		/* height: 90vh; */
 	}
 }
