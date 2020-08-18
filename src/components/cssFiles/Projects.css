@@ -132,7 +132,7 @@ ul {
 		position: relative;
 		text-align: left;
 		margin: auto;
-		top: 0;
+		top: 20px;
 	}
 	img.project-card {
 		width: 100%;
