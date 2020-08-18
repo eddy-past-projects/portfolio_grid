@@ -3,7 +3,7 @@
 }
 
 body {
-	overscroll-behavior: nonegit s;
+	overscroll-behavior: none;
 }
 
 .App {
