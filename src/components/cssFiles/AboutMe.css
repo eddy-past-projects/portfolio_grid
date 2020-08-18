@@ -88,8 +88,8 @@ h5:hover {
 	}
 }
 
-@media all and (max-width: 375px) and (max-height: 700px) {
+/* @media all and (max-width: 375px) and (max-height: 700px) {
 	.text {
 		top: 4vh;
 	}
-}
+} */
