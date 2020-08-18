@@ -138,14 +138,14 @@ a {
 @media all and (max-width: 600px) {
 	.container {
 		display: flex;
-		position: relative;
 	}
 	.main {
 		width: 100vw;
 		margin: 0;
-		/* position: absolute; */
-		top: 100px;
+		position: absolute;
+		top: 210px;
 		height: 72vh;
+		/* height: 83vh; */
 	}
 
 	.aside.logo {
@@ -168,6 +168,5 @@ a {
 		flex-direction: column;
 		align-items: flex-start;
 		align-content: center;
-		position: absolute;
 	}
 }
