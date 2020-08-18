@@ -92,9 +92,9 @@ h5:hover {
 		padding-right: 5%;
 		text-align: left;
 		width: 100%;
-		margin-bottom: 30px;
+		/* margin-bottom: 30px; */
 		position: relative;
-		margin-top: 130px;
+		/* margin-top: 130px; */
 		margin-left: 0;
 	}
 }
