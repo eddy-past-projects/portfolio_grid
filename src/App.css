@@ -102,9 +102,10 @@ a {
 	.main {
 		width: 100vw;
 		margin: 0;
-		position: fixed;
-		top: 210px;
-		height: 72vh;
+		position: relative;
+		top: 100px;
+		/* top: 210px; */
+		/* height: 72vh; */
 		/* height: 83vh; */
 	}
 
@@ -112,9 +113,9 @@ a {
 		width: 100vw;
 		z-index: 20;
 		background: white;
-		top: 100px;
+		top: 110px;
 		height: 110px;
-		position: fixed;
+		/* position: fixed; */
 	}
 
 	.swirl {
@@ -123,10 +124,12 @@ a {
 		top: 0;
 	}
 	.wrapper {
+		position: fixed;
 		/* margin-top: 100px; */
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		align-content: center;
+		/* height: 90vh; */
 	}
 }
