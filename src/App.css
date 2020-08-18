@@ -98,6 +98,7 @@ a {
 @media all and (max-width: 600px) {
 	.container {
 		display: flex;
+		position: fixed;
 	}
 	.main {
 		width: 100vw;
