@@ -66,6 +66,8 @@ class SplashScreen extends React.Component {
 					<Home />
 				</div>
 			);
+		} else {
+			return <Home />;
 		}
 	}
 }
