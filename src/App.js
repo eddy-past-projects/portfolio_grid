@@ -26,7 +26,6 @@ function App() {
 				<div className="main">
 					<Route exact path="/" component={SplashScreen} />
 					<Route path="/projects" component={Home} />
-
 					<Route path="/about-me" component={AboutMe} />
 					<Route path="/kayak" component={KayakProject} />
 					<Route path="/abode" component={AbodeProject} />
