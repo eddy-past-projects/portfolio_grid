@@ -46,6 +46,12 @@ class SplashScreen extends React.Component {
 					<Splash />;
 				</div>
 			);
+		} else if (this.state.timePassed && !isMobile) {
+			return (
+				<div>
+					<Home />
+				</div>
+			);
 		} else if (isMobile && this.state.timePassed) {
 			return (
 				<div>
@@ -53,8 +59,6 @@ class SplashScreen extends React.Component {
 					<Home />
 				</div>
 			);
-		} else {
-			return <Home />;
 		}
 	}
 }
