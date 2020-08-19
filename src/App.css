@@ -101,8 +101,11 @@ a {
 	.main {
 		width: 100vw;
 		margin: 0;
+		/* position: fixed; */
 		position: absolute;
-		top: 245px;
+		/* top: 245px; */
+		top: 125px;
+
 		height: 68vh;
 		/* height: 83vh; */
 	}
