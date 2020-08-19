@@ -49,6 +49,7 @@ class SplashScreen extends React.Component {
 		} else if (!this.state.timePassed && isMobile) {
 			return (
 				<div>
+					{mainClass.classList.remove('fixPosition')}
 					<Splash />;
 				</div>
 			);
