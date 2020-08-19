@@ -34,14 +34,32 @@ class SplashScreen extends React.Component {
 	}
 
 	render() {
-		// let isMobile;
-		// let width = this.state.width;
-		// width <= 500 ? (isMobile = true) : (isMobile = false);
+		let mainClass = document.querySelector('.main');
 
-		return !this.state.timePassed ? <Splash /> : <Home />;
+		console.log(mainClass);
+		let isMobile;
+		let width = this.state.width;
+		width <= 600 ? (isMobile = true) : (isMobile = false);
+		if (!this.state.timePassed) {
+			return (
+				<div>
+					<Splash />;
+				</div>
+			);
+		} else if (isMobile && this.state.timePassed) {
+			return (
+				<div>
+					{mainClass.classList.add('fixPosition')}
+					<Home />
+				</div>
+			);
+		} else {
+			return <Home />;
+		}
 	}
 }
 
 export default SplashScreen;
 
 // return !this.state.timePassed && !isMobile ?
+// return !this.state.timePassed ? <Splash /> : <Home />;

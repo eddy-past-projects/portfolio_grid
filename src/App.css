@@ -57,6 +57,10 @@ a {
 	text-decoration: none;
 }
 
+.fixPosition {
+	position: fixed;
+}
+
 /* ///////// media queries ///////// */
 
 @media all and (min-width: 800px) {
@@ -101,7 +105,7 @@ a {
 	.main {
 		width: 100vw;
 		margin: 0;
-		position: fixed;
+		/* position: fixed; */
 		top: 210px;
 		height: 72vh;
 		/* height: 83vh; */
