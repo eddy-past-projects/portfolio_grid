@@ -132,11 +132,17 @@ ul {
 		position: relative;
 		text-align: left;
 		margin: auto;
-		top: 20px;
+		margin-bottom: 20px;
+		top: 0;
 	}
 	img.project-card {
 		width: 100%;
+		margin-top: 0;
+		margin-bottom: 20px;
 		/* margin-top: 40px; */
+	}
+	img.project-card.abode {
+		margin-bottom: 0px;
 	}
 	.cards {
 		margin: 0 10px;
