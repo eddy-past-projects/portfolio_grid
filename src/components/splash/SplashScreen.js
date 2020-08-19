@@ -46,6 +46,12 @@ class SplashScreen extends React.Component {
 					<Splash />;
 				</div>
 			);
+		} else if (!this.state.timePassed && isMobile) {
+			return (
+				<div>
+					<Splash />;
+				</div>
+			);
 		} else if (this.state.timePassed && !isMobile) {
 			return (
 				<div>
