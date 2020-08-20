@@ -8,7 +8,8 @@ class SplashScreen extends React.Component {
 
 		this.state = {
 			width: window.innerWidth,
-			timePassed: false
+			timePassed: false,
+			fixPos: false
 		};
 	}
 
@@ -29,7 +30,8 @@ class SplashScreen extends React.Component {
 
 	setTimePassed() {
 		this.setState({
-			timePassed: true
+			timePassed: true,
+			fixPos: true
 		});
 	}
 
@@ -40,16 +42,16 @@ class SplashScreen extends React.Component {
 		let isMobile;
 		let width = this.state.width;
 		width <= 600 ? (isMobile = true) : (isMobile = false);
-		if (!this.state.timePassed) {
+		if (!this.state.timePassed && !this.fixPos) {
 			return (
 				<div>
 					<Splash />;
 				</div>
 			);
-		} else if (!this.state.timePassed && isMobile) {
+		} else if (!this.state.fixPos && isMobile) {
 			return (
 				<div>
-					{mainClass.classList.remove('fixPosition')}
+					{mainClass.classList.add('relPosition')}
 					<Splash />;
 				</div>
 			);
@@ -59,7 +61,7 @@ class SplashScreen extends React.Component {
 					<Home />
 				</div>
 			);
-		} else if (isMobile && this.state.timePassed) {
+		} else if (isMobile && this.state.fixPos) {
 			return (
 				<div>
 					{mainClass.classList.add('fixPosition')}

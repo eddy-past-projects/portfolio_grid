@@ -60,7 +60,9 @@ a {
 .fixPosition {
 	position: fixed;
 }
-
+.relPosition {
+	position: relative;
+}
 /* ///////// media queries ///////// */
 
 @media all and (min-width: 800px) {
