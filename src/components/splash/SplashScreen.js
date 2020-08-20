@@ -34,7 +34,11 @@ class SplashScreen extends React.Component {
 	}
 
 	render() {
-		return !this.state.timePassed ? <Splash /> : <Home />;
+		let isMobile;
+		let width = this.state.width;
+		width <= 600 ? (isMobile = true) : (isMobile = false);
+
+		return !this.state.timePassed && !isMobile ? <Splash /> : <Home />;
 	}
 }
 export default SplashScreen;
