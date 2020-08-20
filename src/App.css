@@ -81,7 +81,7 @@ a {
 }
 @media all and (max-width: 770px) {
 	.main {
-		height: 80vh;
+		height: 75vh;
 		margin-bottom: auto;
 		/* margin-top: 160px; */
 	}
@@ -120,7 +120,7 @@ a {
 		position: fixed;
 		/* position: absolute; */
 		top: 245px;
-		height: 63vh;
+		height: 60%;
 		/* top: 125px;
 		/* height: 83vh; */
 	}
