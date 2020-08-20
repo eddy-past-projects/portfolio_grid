@@ -56,7 +56,9 @@ body {
 a {
 	text-decoration: none;
 }
-
+.changePosition {
+	position: fixed;
+}
 /* ///////// media queries ///////// */
 
 @media all and (min-width: 800px) {
@@ -101,9 +103,13 @@ a {
 	.main {
 		width: 100vw;
 		margin: 0;
+		/* position: relative; */
 		position: fixed;
-		top: 210px;
-		height: 72vh;
+		top: 225px;
+		height: 66vh;
+
+		/* top: 210px;
+		height: 72vh; */
 		/* height: 83vh; */
 	}
 
