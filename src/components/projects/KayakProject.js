@@ -1,12 +1,12 @@
 import React from 'react';
-import kayaksWh from '../../assets/kayaksWh.jpg';
+import kayaksWh2 from '../../assets/kayaksWh2.png';
 
 const KayakProject = () => {
 	return (
 		<div className="solo-card">
 			<div className="inner-card">
 				<a href="https://come-on-kayak.netlify.app">
-					<img src={kayaksWh} className="project-solo" alt="kayak" />{' '}
+					<img src={kayaksWh2} className="project-solo" alt="kayak" />{' '}
 				</a>
 
 				<h3>

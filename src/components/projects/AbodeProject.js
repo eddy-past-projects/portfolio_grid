@@ -1,12 +1,12 @@
 import React from 'react';
-import abode from '../../assets/abode.jpg';
+import abode1 from '../../assets/abode1.png';
 
 const AbodeProject = () => {
 	return (
 		<div className="solo-card">
 			<div className="inner-card">
 				<a href="https://abodehaven.herokuapp.com/">
-					<img src={abode} className="project-solo" alt="city at night" />
+					<img src={abode1} className="project-solo" alt="city at night" />
 				</a>
 
 				<h3>
