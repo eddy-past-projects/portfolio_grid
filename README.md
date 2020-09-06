@@ -11,7 +11,7 @@ Clone this repo.
 
 Run npm install and npm start. You will be asked if you would like to run the program on another server. Type "Y" for Yes.
 
-Your browser will automatically launch the Cynthia Eddy app to its home page.
+Your browser will automatically launch My Portfolio app to its home page.
 
 You can shut down the server by typing Control C in the terminal window where it is running.
 
