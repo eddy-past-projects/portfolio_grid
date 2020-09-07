@@ -28,7 +28,7 @@ const AbodeProject = () => {
 						<i className="fas fa-video fa-2x" />
 					</a>
 
-					<a href="https://github.com/zoey7117/abode-haven/tree/heroku_work">
+					<a href="https://github.com/cynthiaeddy/abode-haven/tree/heroku_work">
 						<i className="fab fa-github fa-2x" />
 					</a>
 				</div>

@@ -27,11 +27,11 @@ const PetsProject = () => {
 						<i className="fas fa-play-circle fa-2x" />
 					</a>
 
-					<a href="https://github.com/zoey7117/petstoo_frontend">
+					<a href="https://github.com/cynthiaeddy/petstoo_frontend">
 						<i className="fab fa-github fa-2x" />
 					</a>
 
-					<a href="https://github.com/zoey7117/petstoo_backend">
+					<a href="https://github.com/cynthiaeddy/petstoo_backend">
 						<i className="fab fa-github fa-2x" />
 					</a>
 				</div>

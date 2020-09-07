@@ -26,11 +26,11 @@ const KayakProject = () => {
 					<a href="https://youtu.be/9nf-APieUaM">
 						<i className="fas fa-video fa-2x" />
 					</a>
-					<a href="https://github.com/zoey7117/kayaking_frontend">
+					<a href="https://github.com/cynthiaeddy/kayaking_frontend">
 						<i className="fab fa-github fa-2x" />
 					</a>
 
-					<a href="https://github.com/zoey7117/kayaking-backend">
+					<a href="https://github.com/cynthiaeddy/kayaking-backend">
 						<i className="fab fa-github fa-2x" />
 					</a>
 				</div>

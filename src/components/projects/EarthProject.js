@@ -23,11 +23,11 @@ const EarthProject = () => {
 						<i className="fas fa-play-circle fa-2x" />
 					</a>
 
-					<a href="https://github.com/zoey7117/google-earth-client">
+					<a href="https://github.com/cynthiaeddy/google-earth-client">
 						<i className="fab fa-github fa-2x" />
 					</a>
 
-					<a href="https://github.com/zoey7117/google-earth-api">
+					<a href="https://github.com/cynthiaeddy/google-earth-api">
 						<i className="fab fa-github fa-2x" />
 					</a>
 				</div>

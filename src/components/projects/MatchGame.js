@@ -25,7 +25,7 @@ const MatchGame = () => {
 						<i className="fas fa-play-circle fa-2x" />
 					</a>
 
-					<a href="https://github.com/zoey7117/match-game">
+					<a href="https://github.com/cynthiaeddy/match-game">
 						<i className="fab fa-github fa-2x" />
 					</a>
 				</div>
