@@ -1,6 +1,6 @@
 import React from 'react';
 import linkedin2 from '../../assets/linkedin2.jpg';
-import ceddy_resume from '../../assets/ceddy_resume.pdf';
+import resume_final from '../../assets/resume_final.pdf';
 import '../cssFiles/AboutMe.css';
 
 const AboutMe = () => {
@@ -11,26 +11,29 @@ const AboutMe = () => {
 					<img src={linkedin2} className="my-photo" alt="" />
 				</div>
 
-				<h1>I've been around!</h1>
 				<h3>
-					Before the metamorphosis of the internet, I was an editorial art director/designer for major
-					publishing houses here in nyc. As the internet evolved, the plethora of magazines diminished and the
-					usage of the revolving door increased. I broadened my skillset and became adept in designing for the
-					iPad, iPhone.
+					I've always had a penchant for creativity. My life has been a continual exploration of mediums
+					ranging from textiles and metalsmithing to designing for editorial publications, both print and
+					digital. The common thread throughout these mediums is the fascination of making the abstract
+					tangible. As a Software Engineer, my focus is on exploring this medium of computer programming -
+					applying my creative and technical problem-solving skills, as well as my tenacious spirit. Because
+					of my previous work environment, I'm adept at prioritizing key deliverables under tight deadlines
+					and collaborating effectively across departments.
 				</h3>
-				<h1>(and around).</h1>
-				<h3>
-					I graduated from the immersive software engineering program at Flatiron School. I'm eager to merge
-					my newly acquired skills with the common thread of engaging the user with visually interesting
-					solutions.
-				</h3>
+
 				<br />
 				<footer>
-					<a href={ceddy_resume}>
+					<a href={resume_final}>
 						<h5>click here to view my resume | </h5>
+					</a>
+					<a href={resume_final} download>
+						<h5> download my resume | </h5>
 					</a>
 					<a href="https://www.linkedin.com/in/cynthiaeddy">
 						<h5>linkedin profile | </h5>
+					</a>
+					<a href="https://github.com/cynthiaeddy">
+						<h5>github | </h5>
 					</a>
 					<a href="http://www.cynthiaeddy.com">
 						<h5>print and digital portfolio | </h5>
