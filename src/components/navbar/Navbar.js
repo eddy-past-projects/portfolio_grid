@@ -19,6 +19,11 @@ class Navbar extends React.Component {
 							</Link>
 						</li>
 						<li>
+							<Link to="/resume" className="resume">
+								Resume
+							</Link>
+						</li>
+						<li>
 							<Link to="/about-me" className="about-me">
 								About Me
 							</Link>

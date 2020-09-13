@@ -12,6 +12,8 @@ import MatchGame from './components/projects/MatchGame';
 import EarthProject from './components/projects/EarthProject';
 
 import AboutMe from './components/aboutMe/AboutMe';
+import Resume from './components/resume/Resume';
+
 import Home from './components/home/Home';
 import SplashScreen from './components/splash/SplashScreen';
 
@@ -28,6 +30,8 @@ function App() {
 					<Route exact path="/" component={SplashScreen} />
 					<Route path="/projects" component={Home} />
 					<Route path="/about-me" component={AboutMe} />
+					<Route path="/resume" component={Resume} />
+
 					<Route path="/kayak" component={KayakProject} />
 					<Route path="/abode" component={AbodeProject} />
 					<Route path="/pets" component={PetsProject} />
