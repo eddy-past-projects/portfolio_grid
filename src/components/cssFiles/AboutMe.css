@@ -62,7 +62,7 @@ h5:hover {
 	}
 }
 
-@media all and (max-width: 600px) {
+/* @media all and (max-width: 600px) {
 	.my-photo {
 		text-align: center;
 		display: flex;
@@ -84,6 +84,40 @@ h5:hover {
 		text-align: left;
 		width: 100%;
 		position: relative;
+		margin-left: 0;
+	} */
+/* } */
+
+@media all and (max-width: 600px) {
+	.my-photo {
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		float: none;
+		/* margin-top: 0; */
+		/* position: relative; */
+		top: 0;
+		right: 50px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	h1 {
+		margin: 10px 0;
+	}
+	.image {
+		left: 0;
+		height: 125px;
+	}
+	.text {
+		padding-left: 5%;
+		padding-right: 5%;
+		text-align: left;
+		width: 100%;
+		position: relative;
+
+		/* position: static; */
 		margin-left: 0;
 	}
 }

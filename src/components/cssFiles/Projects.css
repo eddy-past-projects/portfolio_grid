@@ -126,7 +126,7 @@ ul {
 	} */
 }
 
-@media all and (max-width: 600px) {
+/* @media all and (max-width: 600px) {
 	.solo-card {
 		width: 90%;
 		position: relative;
@@ -137,6 +137,32 @@ ul {
 	img.project-card {
 		width: 100%;
 		/* margin-top: 40px; */
+/* } */
+/* .cards {
+		margin: 0 10px; */
+/* margin-top: 100px; */
+/* }
+	.icons {
+		margin-bottom: 0;
+	} */
+/* } */
+@media all and (max-width: 600px) {
+	.solo-card {
+		width: 90%;
+		position: relative;
+		text-align: left;
+		margin: auto;
+		margin-bottom: 20px;
+		top: 0;
+	}
+	img.project-card {
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 20px;
+		/* margin-top: 40px; */
+	}
+	img.project-card.abode {
+		margin-bottom: 0px;
 	}
 	.cards {
 		margin: 0 10px;

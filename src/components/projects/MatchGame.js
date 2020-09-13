@@ -1,12 +1,12 @@
 import React from 'react';
-import match_gamealt2 from '../../assets/match_gamealt2.jpg';
+import match_gamealt3 from '../../assets/match_gamealt3.jpg';
 
 const MatchGame = () => {
 	return (
 		<div className="solo-card match">
 			<div className="inner-card">
 				<a href="https://match-car-game.netlify.app/">
-					<img src={match_gamealt2} className="project-solo" alt="match game" />
+					<img src={match_gamealt3} className="project-solo" alt="match game" />
 				</a>
 
 				<h3>
@@ -25,7 +25,7 @@ const MatchGame = () => {
 						<i className="fas fa-play-circle fa-2x" />
 					</a>
 
-					<a href="https://github.com/zoey7117/match-game">
+					<a href="https://github.com/cynthiaeddy/match-game">
 						<i className="fab fa-github fa-2x" />
 					</a>
 				</div>

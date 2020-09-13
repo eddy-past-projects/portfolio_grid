@@ -1,12 +1,12 @@
 import React from 'react';
-import kayaksWh from '../../assets/kayaksWh.jpg';
+import kayaksWh2 from '../../assets/kayaksWh2.png';
 
 const KayakProject = () => {
 	return (
 		<div className="solo-card">
 			<div className="inner-card">
 				<a href="https://come-on-kayak.netlify.app">
-					<img src={kayaksWh} className="project-solo" alt="kayak" />{' '}
+					<img src={kayaksWh2} className="project-solo" alt="kayak" />{' '}
 				</a>
 
 				<h3>
@@ -26,11 +26,11 @@ const KayakProject = () => {
 					<a href="https://youtu.be/9nf-APieUaM">
 						<i className="fas fa-video fa-2x" />
 					</a>
-					<a href="https://github.com/zoey7117/kayaking_frontend">
+					<a href="https://github.com/cynthiaeddy/kayaking_frontend">
 						<i className="fab fa-github fa-2x" />
 					</a>
 
-					<a href="https://github.com/zoey7117/kayaking-backend">
+					<a href="https://github.com/cynthiaeddy/kayaking-backend">
 						<i className="fab fa-github fa-2x" />
 					</a>
 				</div>

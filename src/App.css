@@ -57,6 +57,12 @@ a {
 	text-decoration: none;
 }
 
+.fixPosition {
+	position: fixed;
+}
+.relPosition {
+	position: relative;
+}
 /* ///////// media queries ///////// */
 
 @media all and (min-width: 800px) {
@@ -75,7 +81,8 @@ a {
 }
 @media all and (max-width: 770px) {
 	.main {
-		height: 80vh;
+		height: 75vh;
+		margin-bottom: auto;
 		/* margin-top: 160px; */
 	}
 }
@@ -98,12 +105,23 @@ a {
 	.container {
 		display: flex;
 	}
+	/* .main {
+		width: 100vw;
+		margin: 0;
+		/* position: fixed; */
+	/* top: 210px;
+		height: 72vh; */
+	/* height: 83vh; */
+	/* } */
+
 	.main {
 		width: 100vw;
 		margin: 0;
 		position: fixed;
-		top: 210px;
-		height: 72vh;
+		/* position: absolute; */
+		top: 245px;
+		height: 57vh;
+		/* top: 125px;
 		/* height: 83vh; */
 	}
 
