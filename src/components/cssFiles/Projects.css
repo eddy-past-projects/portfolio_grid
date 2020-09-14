@@ -121,31 +121,7 @@ ul {
 		height: inherit;
 		margin-top: 20px;
 	}
-	/* img.project-card.abode {
-		margin-bottom: 20px;
-	} */
 }
-
-/* @media all and (max-width: 600px) {
-	.solo-card {
-		width: 90%;
-		position: relative;
-		text-align: left;
-		margin: auto;
-		top: 20px;
-	}
-	img.project-card {
-		width: 100%;
-		/* margin-top: 40px; */
-/* } */
-/* .cards {
-		margin: 0 10px; */
-/* margin-top: 100px; */
-/* }
-	.icons {
-		margin-bottom: 0;
-	} */
-/* } */
 @media all and (max-width: 600px) {
 	.solo-card {
 		width: 90%;
