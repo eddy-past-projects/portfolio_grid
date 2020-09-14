@@ -106,4 +106,7 @@ h5:hover {
 	.text h3 {
 		margin-top: 0px;
 	}
+	.text {
+		margin-top: 10px;
+	}
 }
