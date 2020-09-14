@@ -101,9 +101,3 @@ h5:hover {
 		margin-left: 0;
 	}
 }
-
-@media all and (max-width: 400px) {
-	.text h3 {
-		margin-top: -100px;
-	}
-}
