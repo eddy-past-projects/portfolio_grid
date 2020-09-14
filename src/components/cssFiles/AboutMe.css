@@ -104,9 +104,9 @@ h5:hover {
 
 @media all and (max-width: 400px) {
 	.text h3 {
-		margin-top: 0px;
+		margin-top: -30px;
 	}
-	.text {
-		margin-top: 0;
-	}
+	/* .text {
+		margin-top: -30px;
+	} */
 }
