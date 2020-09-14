@@ -11,7 +11,7 @@ import SimonProject from './components/projects/SimonProject';
 import MatchGame from './components/projects/MatchGame';
 import EarthProject from './components/projects/EarthProject';
 
-import AboutMe from './components/aboutMe/AboutMe';
+import About from './components/aboutMe/About';
 import Home from './components/home/Home';
 import SplashScreen from './components/splash/SplashScreen';
 
@@ -27,7 +27,7 @@ function App() {
 				<div className="main">
 					<Route exact path="/" component={SplashScreen} />
 					<Route path="/projects" component={Home} />
-					<Route path="/about-me" component={AboutMe} />
+					<Route path="/about-me" component={About} />
 					<Route path="/kayak" component={KayakProject} />
 					<Route path="/abode" component={AbodeProject} />
 					<Route path="/pets" component={PetsProject} />
