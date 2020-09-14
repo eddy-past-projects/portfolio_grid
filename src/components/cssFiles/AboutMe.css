@@ -100,4 +100,7 @@ h5:hover {
 		position: relative;
 		margin-left: 0;
 	}
+	.text h3 {
+		margin-top: 20px;
+	}
 }
