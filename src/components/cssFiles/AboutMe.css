@@ -58,7 +58,7 @@ h5:hover {
 	.text {
 		margin: 0 50px 0 20px;
 	}
-	h3 {
+	.text h3 {
 		margin-top: 50px;
 		font-size: 17px;
 	}
@@ -103,7 +103,7 @@ h5:hover {
 }
 
 @media all and (max-width: 400px) {
-	h3 {
+	.text h3 {
 		margin-top: 0px;
 	}
 }
